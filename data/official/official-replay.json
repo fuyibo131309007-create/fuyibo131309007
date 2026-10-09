@@ -1,0 +1,2713 @@
+{
+  "source_name": "上海证券交易所·上证统计月报·证券指数",
+  "source_url": "https://www.sse.com.cn/aboutus/publication/monthly/index/",
+  "retrieved_at": "2026-10-09T06:17:46.107820+00:00",
+  "mode": "historical_replay",
+  "note": "公开官方历史数据。TRD_VOL原单位亿股、TRD_VAL原单位亿元；归一化时均乘以1e8。各指数成交额是指数样本证券口径，不能相加冒充全市场。",
+  "indices": [
+    {
+      "thscode": "000001.SH",
+      "name": "上证综指",
+      "bars": [
+        {
+          "date": "2026-06-01",
+          "date_ms": 1780243200000,
+          "open_price": 4067.16,
+          "high_price": 4093.04,
+          "low_price": 4045.69,
+          "close_price": 4057.74,
+          "volume": 67634000000.0,
+          "turnover": 1320246000000.0
+        },
+        {
+          "date": "2026-06-02",
+          "date_ms": 1780329600000,
+          "open_price": 4061.46,
+          "high_price": 4089.57,
+          "low_price": 4032.58,
+          "close_price": 4075.1,
+          "volume": 64241999999.99999,
+          "turnover": 1281233000000.0
+        },
+        {
+          "date": "2026-06-03",
+          "date_ms": 1780416000000,
+          "open_price": 4068.34,
+          "high_price": 4107.05,
+          "low_price": 4059.91,
+          "close_price": 4083.97,
+          "volume": 66971000000.0,
+          "turnover": 1431917000000.0
+        },
+        {
+          "date": "2026-06-04",
+          "date_ms": 1780502400000,
+          "open_price": 4053.67,
+          "high_price": 4080.72,
+          "low_price": 4043.43,
+          "close_price": 4057.78,
+          "volume": 62304999999.99999,
+          "turnover": 1277943000000.0
+        },
+        {
+          "date": "2026-06-05",
+          "date_ms": 1780588800000,
+          "open_price": 4044.83,
+          "high_price": 4078.93,
+          "low_price": 4015.06,
+          "close_price": 4027.74,
+          "volume": 66324000000.0,
+          "turnover": 1364479000000.0
+        },
+        {
+          "date": "2026-06-08",
+          "date_ms": 1780848000000,
+          "open_price": 3938.71,
+          "high_price": 4007.49,
+          "low_price": 3927.85,
+          "close_price": 3959.34,
+          "volume": 65957000000.00001,
+          "turnover": 1267836000000.0
+        },
+        {
+          "date": "2026-06-09",
+          "date_ms": 1780934400000,
+          "open_price": 3977.54,
+          "high_price": 4010.87,
+          "low_price": 3955.91,
+          "close_price": 4010.03,
+          "volume": 57724000000.0,
+          "turnover": 1174663000000.0
+        },
+        {
+          "date": "2026-06-10",
+          "date_ms": 1781020800000,
+          "open_price": 3985.12,
+          "high_price": 4006.31,
+          "low_price": 3963.44,
+          "close_price": 3993.23,
+          "volume": 59984000000.0,
+          "turnover": 1228366000000.0
+        },
+        {
+          "date": "2026-06-11",
+          "date_ms": 1781107200000,
+          "open_price": 3979.71,
+          "high_price": 3997.48,
+          "low_price": 3958.44,
+          "close_price": 3987.01,
+          "volume": 56930999999.99999,
+          "turnover": 1186682000000.0
+        },
+        {
+          "date": "2026-06-12",
+          "date_ms": 1781193600000,
+          "open_price": 4017.86,
+          "high_price": 4060.27,
+          "low_price": 4008.18,
+          "close_price": 4031.51,
+          "volume": 74408000000.0,
+          "turnover": 1539957000000.0
+        },
+        {
+          "date": "2026-06-15",
+          "date_ms": 1781452800000,
+          "open_price": 4053.58,
+          "high_price": 4097.17,
+          "low_price": 4051.07,
+          "close_price": 4096.47,
+          "volume": 68038000000.0,
+          "turnover": 1405072000000.0
+        },
+        {
+          "date": "2026-06-16",
+          "date_ms": 1781539200000,
+          "open_price": 4094.21,
+          "high_price": 4103.93,
+          "low_price": 4077.87,
+          "close_price": 4091.89,
+          "volume": 61707000000.00001,
+          "turnover": 1370906000000.0
+        },
+        {
+          "date": "2026-06-17",
+          "date_ms": 1781625600000,
+          "open_price": 4074.29,
+          "high_price": 4109.96,
+          "low_price": 4073.73,
+          "close_price": 4108.08,
+          "volume": 60848000000.0,
+          "turnover": 1403947000000.0
+        },
+        {
+          "date": "2026-06-18",
+          "date_ms": 1781712000000,
+          "open_price": 4094.23,
+          "high_price": 4117.45,
+          "low_price": 4080.29,
+          "close_price": 4090.48,
+          "volume": 65844000000.00001,
+          "turnover": 1561305000000.0
+        },
+        {
+          "date": "2026-06-22",
+          "date_ms": 1782057600000,
+          "open_price": 4093.95,
+          "high_price": 4164.42,
+          "low_price": 4070.17,
+          "close_price": 4163.1,
+          "volume": 74397000000.0,
+          "turnover": 1704825000000.0
+        },
+        {
+          "date": "2026-06-23",
+          "date_ms": 1782144000000,
+          "open_price": 4153.59,
+          "high_price": 4175.35,
+          "low_price": 4085.59,
+          "close_price": 4106.25,
+          "volume": 70935000000.0,
+          "turnover": 1595897000000.0
+        },
+        {
+          "date": "2026-06-24",
+          "date_ms": 1782230400000,
+          "open_price": 4090.1,
+          "high_price": 4117.28,
+          "low_price": 4075.49,
+          "close_price": 4110.81,
+          "volume": 64480999999.99999,
+          "turnover": 1516022000000.0
+        },
+        {
+          "date": "2026-06-25",
+          "date_ms": 1782316800000,
+          "open_price": 4103.48,
+          "high_price": 4133.1,
+          "low_price": 4093.01,
+          "close_price": 4120.28,
+          "volume": 67249000000.0,
+          "turnover": 1621179000000.0
+        },
+        {
+          "date": "2026-06-26",
+          "date_ms": 1782403200000,
+          "open_price": 4098.69,
+          "high_price": 4099.78,
+          "low_price": 4007.86,
+          "close_price": 4027.26,
+          "volume": 66050000000.0,
+          "turnover": 1622110000000.0
+        },
+        {
+          "date": "2026-06-29",
+          "date_ms": 1782662400000,
+          "open_price": 4026.69,
+          "high_price": 4075.33,
+          "low_price": 3992.55,
+          "close_price": 4073.9,
+          "volume": 66060000000.0,
+          "turnover": 1667697000000.0
+        },
+        {
+          "date": "2026-06-30",
+          "date_ms": 1782748800000,
+          "open_price": 4058.17,
+          "high_price": 4097.42,
+          "low_price": 4052.17,
+          "close_price": 4094.4,
+          "volume": 59962000000.0,
+          "turnover": 1531980000000.0
+        },
+        {
+          "date": "2026-07-01",
+          "date_ms": 1782835200000,
+          "open_price": 4090.76,
+          "high_price": 4143.31,
+          "low_price": 4087.54,
+          "close_price": 4112.45,
+          "volume": 67267999999.99999,
+          "turnover": 1699093999999.9998
+        },
+        {
+          "date": "2026-07-02",
+          "date_ms": 1782921600000,
+          "open_price": 4054.09,
+          "high_price": 4093.68,
+          "low_price": 4019.21,
+          "close_price": 4028.9,
+          "volume": 65674000000.0,
+          "turnover": 1577643000000.0
+        },
+        {
+          "date": "2026-07-03",
+          "date_ms": 1783008000000,
+          "open_price": 4031.34,
+          "high_price": 4073.88,
+          "low_price": 4027.26,
+          "close_price": 4043.64,
+          "volume": 60290000000.0,
+          "turnover": 1466774000000.0
+        },
+        {
+          "date": "2026-07-06",
+          "date_ms": 1783267200000,
+          "open_price": 4059.19,
+          "high_price": 4060.07,
+          "low_price": 4005.41,
+          "close_price": 4041.24,
+          "volume": 59090000000.0,
+          "turnover": 1433087000000.0
+        },
+        {
+          "date": "2026-07-07",
+          "date_ms": 1783353600000,
+          "open_price": 4019.49,
+          "high_price": 4028.51,
+          "low_price": 3971.71,
+          "close_price": 3990.24,
+          "volume": 51490000000.0,
+          "turnover": 1198205000000.0
+        },
+        {
+          "date": "2026-07-08",
+          "date_ms": 1783440000000,
+          "open_price": 3996.81,
+          "high_price": 4016.03,
+          "low_price": 3967.91,
+          "close_price": 3970.88,
+          "volume": 49727000000.0,
+          "turnover": 1195651000000.0
+        },
+        {
+          "date": "2026-07-09",
+          "date_ms": 1783526400000,
+          "open_price": 3977.55,
+          "high_price": 4040.54,
+          "low_price": 3938.88,
+          "close_price": 4036.59,
+          "volume": 55396000000.0,
+          "turnover": 1366511000000.0
+        },
+        {
+          "date": "2026-07-10",
+          "date_ms": 1783612800000,
+          "open_price": 4031.54,
+          "high_price": 4074.83,
+          "low_price": 3995.81,
+          "close_price": 3996.16,
+          "volume": 62817999999.99999,
+          "turnover": 1564443000000.0
+        },
+        {
+          "date": "2026-07-13",
+          "date_ms": 1783872000000,
+          "open_price": 3966.02,
+          "high_price": 3983.05,
+          "low_price": 3900.67,
+          "close_price": 3913.79,
+          "volume": 59175000000.0,
+          "turnover": 1336303000000.0
+        },
+        {
+          "date": "2026-07-14",
+          "date_ms": 1783958400000,
+          "open_price": 3909.27,
+          "high_price": 3967.13,
+          "low_price": 3869.3,
+          "close_price": 3967.13,
+          "volume": 58054999999.99999,
+          "turnover": 1273381000000.0
+        },
+        {
+          "date": "2026-07-15",
+          "date_ms": 1784044800000,
+          "open_price": 3963.73,
+          "high_price": 3981.67,
+          "low_price": 3943.7,
+          "close_price": 3955.58,
+          "volume": 57660000000.0,
+          "turnover": 1227174000000.0
+        },
+        {
+          "date": "2026-07-16",
+          "date_ms": 1784131200000,
+          "open_price": 3912.38,
+          "high_price": 3940.45,
+          "low_price": 3867.6,
+          "close_price": 3882.41,
+          "volume": 53563000000.0,
+          "turnover": 1125074000000.0
+        },
+        {
+          "date": "2026-07-17",
+          "date_ms": 1784217600000,
+          "open_price": 3865.32,
+          "high_price": 3869.21,
+          "low_price": 3745.17,
+          "close_price": 3764.15,
+          "volume": 65140000000.0,
+          "turnover": 1247880000000.0
+        },
+        {
+          "date": "2026-07-20",
+          "date_ms": 1784476800000,
+          "open_price": 3791.66,
+          "high_price": 3831.66,
+          "low_price": 3741.11,
+          "close_price": 3796.28,
+          "volume": 70969000000.0,
+          "turnover": 1295739000000.0
+        },
+        {
+          "date": "2026-07-21",
+          "date_ms": 1784563200000,
+          "open_price": 3812.16,
+          "high_price": 3864.6,
+          "low_price": 3743.36,
+          "close_price": 3864.37,
+          "volume": 73564000000.0,
+          "turnover": 1398426000000.0
+        },
+        {
+          "date": "2026-07-22",
+          "date_ms": 1784649600000,
+          "open_price": 3839.67,
+          "high_price": 3884.44,
+          "low_price": 3839.67,
+          "close_price": 3867.03,
+          "volume": 61485000000.0,
+          "turnover": 1259170000000.0
+        },
+        {
+          "date": "2026-07-23",
+          "date_ms": 1784736000000,
+          "open_price": 3868.09,
+          "high_price": 3878.83,
+          "low_price": 3851.71,
+          "close_price": 3876.78,
+          "volume": 56286000000.0,
+          "turnover": 1026987999999.9999
+        },
+        {
+          "date": "2026-07-24",
+          "date_ms": 1784822400000,
+          "open_price": 3853.63,
+          "high_price": 3861.04,
+          "low_price": 3808.64,
+          "close_price": 3814.2,
+          "volume": 50858000000.0,
+          "turnover": 916302000000.0
+        },
+        {
+          "date": "2026-07-27",
+          "date_ms": 1785081600000,
+          "open_price": 3808.9,
+          "high_price": 3858.31,
+          "low_price": 3793.45,
+          "close_price": 3858.25,
+          "volume": 50707000000.0,
+          "turnover": 1033108000000.0
+        },
+        {
+          "date": "2026-07-28",
+          "date_ms": 1785168000000,
+          "open_price": 3823.13,
+          "high_price": 3844.01,
+          "low_price": 3797.37,
+          "close_price": 3813.31,
+          "volume": 49580000000.0,
+          "turnover": 951000000000.0
+        },
+        {
+          "date": "2026-07-29",
+          "date_ms": 1785254400000,
+          "open_price": 3823.29,
+          "high_price": 3845.77,
+          "low_price": 3782.48,
+          "close_price": 3828.47,
+          "volume": 57177000000.0,
+          "turnover": 1088674000000.0
+        },
+        {
+          "date": "2026-07-30",
+          "date_ms": 1785340800000,
+          "open_price": 3812.11,
+          "high_price": 3839.34,
+          "low_price": 3767.5,
+          "close_price": 3804.69,
+          "volume": 59342999999.99999,
+          "turnover": 1107879000000.0
+        },
+        {
+          "date": "2026-07-31",
+          "date_ms": 1785427200000,
+          "open_price": 3833.54,
+          "high_price": 3847.09,
+          "low_price": 3822.37,
+          "close_price": 3832.26,
+          "volume": 59896000000.0,
+          "turnover": 1189780000000.0
+        },
+        {
+          "date": "2026-08-03",
+          "date_ms": 1785686400000,
+          "open_price": 3812.61,
+          "high_price": 3827.64,
+          "low_price": 3797.64,
+          "close_price": 3809.66,
+          "volume": 52514000000.0,
+          "turnover": 953650000000.0
+        },
+        {
+          "date": "2026-08-04",
+          "date_ms": 1785772800000,
+          "open_price": 3816.37,
+          "high_price": 3831.94,
+          "low_price": 3799.52,
+          "close_price": 3822.29,
+          "volume": 54073000000.0,
+          "turnover": 1009112999999.9999
+        },
+        {
+          "date": "2026-08-05",
+          "date_ms": 1785859200000,
+          "open_price": 3815.12,
+          "high_price": 3884.4,
+          "low_price": 3815.12,
+          "close_price": 3878.43,
+          "volume": 59266000000.0,
+          "turnover": 1209735000000.0
+        },
+        {
+          "date": "2026-08-06",
+          "date_ms": 1785945600000,
+          "open_price": 3864.27,
+          "high_price": 3902.05,
+          "low_price": 3864.27,
+          "close_price": 3900.35,
+          "volume": 58924000000.0,
+          "turnover": 1168898000000.0
+        },
+        {
+          "date": "2026-08-07",
+          "date_ms": 1786032000000,
+          "open_price": 3896.49,
+          "high_price": 3940.94,
+          "low_price": 3885.63,
+          "close_price": 3940.04,
+          "volume": 56579000000.0,
+          "turnover": 1211116000000.0
+        },
+        {
+          "date": "2026-08-10",
+          "date_ms": 1786291200000,
+          "open_price": 3943.82,
+          "high_price": 3967.59,
+          "low_price": 3938.63,
+          "close_price": 3966.59,
+          "volume": 54273000000.0,
+          "turnover": 1168343000000.0
+        },
+        {
+          "date": "2026-08-11",
+          "date_ms": 1786377600000,
+          "open_price": 3950.71,
+          "high_price": 3966.39,
+          "low_price": 3930.64,
+          "close_price": 3934.09,
+          "volume": 52998000000.0,
+          "turnover": 1067785000000.0
+        },
+        {
+          "date": "2026-08-12",
+          "date_ms": 1786464000000,
+          "open_price": 3933.55,
+          "high_price": 3950.62,
+          "low_price": 3927.55,
+          "close_price": 3946.68,
+          "volume": 50384000000.0,
+          "turnover": 987304000000.0001
+        },
+        {
+          "date": "2026-08-13",
+          "date_ms": 1786550400000,
+          "open_price": 3957.16,
+          "high_price": 3968.48,
+          "low_price": 3924.64,
+          "close_price": 3926.97,
+          "volume": 57379000000.0,
+          "turnover": 1166088000000.0
+        },
+        {
+          "date": "2026-08-14",
+          "date_ms": 1786636800000,
+          "open_price": 3930.02,
+          "high_price": 3932.64,
+          "low_price": 3903.71,
+          "close_price": 3927.18,
+          "volume": 50009000000.0,
+          "turnover": 991762999999.9999
+        },
+        {
+          "date": "2026-08-17",
+          "date_ms": 1786896000000,
+          "open_price": 3930.1,
+          "high_price": 3983.51,
+          "low_price": 3924.47,
+          "close_price": 3982.65,
+          "volume": 49036000000.0,
+          "turnover": 1114365000000.0
+        },
+        {
+          "date": "2026-08-18",
+          "date_ms": 1786982400000,
+          "open_price": 3979.49,
+          "high_price": 3994.18,
+          "low_price": 3955.6,
+          "close_price": 3990.3,
+          "volume": 51168000000.0,
+          "turnover": 1136066000000.0
+        },
+        {
+          "date": "2026-08-19",
+          "date_ms": 1787068800000,
+          "open_price": 3952.12,
+          "high_price": 3961.14,
+          "low_price": 3879.58,
+          "close_price": 3894.42,
+          "volume": 57266999999.99999,
+          "turnover": 1219160000000.0
+        },
+        {
+          "date": "2026-08-20",
+          "date_ms": 1787155200000,
+          "open_price": 3907.21,
+          "high_price": 3925.06,
+          "low_price": 3888.1,
+          "close_price": 3903.72,
+          "volume": 50740000000.0,
+          "turnover": 1019983000000.0
+        },
+        {
+          "date": "2026-08-21",
+          "date_ms": 1787241600000,
+          "open_price": 3891.18,
+          "high_price": 3912.13,
+          "low_price": 3883.79,
+          "close_price": 3905.2,
+          "volume": 44738000000.0,
+          "turnover": 884423000000.0
+        },
+        {
+          "date": "2026-08-24",
+          "date_ms": 1787500800000,
+          "open_price": 3902.7,
+          "high_price": 3910.24,
+          "low_price": 3855.35,
+          "close_price": 3882.01,
+          "volume": 48726000000.0,
+          "turnover": 952784000000.0
+        },
+        {
+          "date": "2026-08-25",
+          "date_ms": 1787587200000,
+          "open_price": 3863.37,
+          "high_price": 3896.21,
+          "low_price": 3850.86,
+          "close_price": 3889.45,
+          "volume": 46797000000.0,
+          "turnover": 861082000000.0
+        },
+        {
+          "date": "2026-08-26",
+          "date_ms": 1787673600000,
+          "open_price": 3881.74,
+          "high_price": 3926.44,
+          "low_price": 3881.74,
+          "close_price": 3912.52,
+          "volume": 49115000000.0,
+          "turnover": 858298000000.0
+        },
+        {
+          "date": "2026-08-27",
+          "date_ms": 1787760000000,
+          "open_price": 3911.89,
+          "high_price": 3958.03,
+          "low_price": 3909.31,
+          "close_price": 3956.57,
+          "volume": 51744000000.00001,
+          "turnover": 1011518000000.0
+        },
+        {
+          "date": "2026-08-28",
+          "date_ms": 1787846400000,
+          "open_price": 3950.24,
+          "high_price": 3970.31,
+          "low_price": 3947.8,
+          "close_price": 3952.18,
+          "volume": 51106000000.0,
+          "turnover": 971493000000.0
+        },
+        {
+          "date": "2026-08-31",
+          "date_ms": 1788105600000,
+          "open_price": 3926.53,
+          "high_price": 3986.3,
+          "low_price": 3926.5,
+          "close_price": 3986.3,
+          "volume": 57714000000.0,
+          "turnover": 1015467000000.0
+        }
+      ],
+      "raw_sources": [
+        {
+          "file": "000001.SH-202606-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_SSE_INDEX_C&isPagination=false&MDATE=202606",
+          "sha256": "7641235545236784452adcf0262895a88ae8cd66e1d01ebff8c9a8c4edb0b268",
+          "count": 21
+        },
+        {
+          "file": "000001.SH-202607-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_SSE_INDEX_C&isPagination=false&MDATE=202607",
+          "sha256": "548457c7ae3396c413dab338d18408c95692ece36aba4e600235984ede5f0e3a",
+          "count": 23
+        },
+        {
+          "file": "000001.SH-202608-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_SSE_INDEX_C&isPagination=false&MDATE=202608",
+          "sha256": "9136d2e14444006f3f4c62769034023da0c66c0ec723288c476b3b61f1496557",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "thscode": "000300.SH",
+      "name": "沪深300",
+      "bars": [
+        {
+          "date": "2026-06-01",
+          "date_ms": 1780243200000,
+          "open_price": 4897.9,
+          "high_price": 4918.79,
+          "low_price": 4836.69,
+          "close_price": 4844.26,
+          "volume": 29619000000.0,
+          "turnover": 824187999999.9999
+        },
+        {
+          "date": "2026-06-02",
+          "date_ms": 1780329600000,
+          "open_price": 4860.61,
+          "high_price": 4930.28,
+          "low_price": 4832.0,
+          "close_price": 4914.56,
+          "volume": 28175000000.0,
+          "turnover": 806820000000.0
+        },
+        {
+          "date": "2026-06-03",
+          "date_ms": 1780416000000,
+          "open_price": 4921.34,
+          "high_price": 4991.85,
+          "low_price": 4904.9,
+          "close_price": 4938.81,
+          "volume": 30414999999.999996,
+          "turnover": 906716000000.0
+        },
+        {
+          "date": "2026-06-04",
+          "date_ms": 1780502400000,
+          "open_price": 4897.32,
+          "high_price": 4938.78,
+          "low_price": 4889.75,
+          "close_price": 4904.75,
+          "volume": 26537000000.0,
+          "turnover": 738846000000.0
+        },
+        {
+          "date": "2026-06-05",
+          "date_ms": 1780588800000,
+          "open_price": 4886.96,
+          "high_price": 4924.34,
+          "low_price": 4798.91,
+          "close_price": 4816.92,
+          "volume": 30195999999.999996,
+          "turnover": 839964000000.0
+        },
+        {
+          "date": "2026-06-08",
+          "date_ms": 1780848000000,
+          "open_price": 4703.77,
+          "high_price": 4779.86,
+          "low_price": 4677.57,
+          "close_price": 4713.64,
+          "volume": 29968000000.0,
+          "turnover": 761195000000.0
+        },
+        {
+          "date": "2026-06-09",
+          "date_ms": 1780934400000,
+          "open_price": 4743.45,
+          "high_price": 4802.5,
+          "low_price": 4715.39,
+          "close_price": 4801.81,
+          "volume": 25851000000.0,
+          "turnover": 713799000000.0
+        },
+        {
+          "date": "2026-06-10",
+          "date_ms": 1781020800000,
+          "open_price": 4753.12,
+          "high_price": 4786.52,
+          "low_price": 4718.99,
+          "close_price": 4748.59,
+          "volume": 25936000000.0,
+          "turnover": 694782000000.0
+        },
+        {
+          "date": "2026-06-11",
+          "date_ms": 1781107200000,
+          "open_price": 4730.07,
+          "high_price": 4766.17,
+          "low_price": 4685.5,
+          "close_price": 4722.41,
+          "volume": 24753000000.0,
+          "turnover": 654768000000.0
+        },
+        {
+          "date": "2026-06-12",
+          "date_ms": 1781193600000,
+          "open_price": 4784.64,
+          "high_price": 4809.86,
+          "low_price": 4757.56,
+          "close_price": 4777.32,
+          "volume": 33636000000.0,
+          "turnover": 873079999999.9999
+        },
+        {
+          "date": "2026-06-15",
+          "date_ms": 1781452800000,
+          "open_price": 4829.29,
+          "high_price": 4892.55,
+          "low_price": 4803.18,
+          "close_price": 4891.71,
+          "volume": 33257000000.0,
+          "turnover": 915181000000.0
+        },
+        {
+          "date": "2026-06-16",
+          "date_ms": 1781539200000,
+          "open_price": 4894.88,
+          "high_price": 4908.28,
+          "low_price": 4866.06,
+          "close_price": 4884.23,
+          "volume": 28350000000.0,
+          "turnover": 857695999999.9999
+        },
+        {
+          "date": "2026-06-17",
+          "date_ms": 1781625600000,
+          "open_price": 4859.7,
+          "high_price": 4933.93,
+          "low_price": 4859.7,
+          "close_price": 4931.39,
+          "volume": 27620999999.999996,
+          "turnover": 850735000000.0
+        },
+        {
+          "date": "2026-06-18",
+          "date_ms": 1781712000000,
+          "open_price": 4916.04,
+          "high_price": 4976.89,
+          "low_price": 4916.04,
+          "close_price": 4941.6,
+          "volume": 33464000000.0,
+          "turnover": 1022339000000.0
+        },
+        {
+          "date": "2026-06-22",
+          "date_ms": 1782057600000,
+          "open_price": 4949.35,
+          "high_price": 5061.51,
+          "low_price": 4928.46,
+          "close_price": 5059.66,
+          "volume": 37541000000.0,
+          "turnover": 1146815000000.0
+        },
+        {
+          "date": "2026-06-23",
+          "date_ms": 1782144000000,
+          "open_price": 5048.03,
+          "high_price": 5064.27,
+          "low_price": 4892.09,
+          "close_price": 4919.39,
+          "volume": 34299000000.0,
+          "turnover": 1048994000000.0
+        },
+        {
+          "date": "2026-06-24",
+          "date_ms": 1782230400000,
+          "open_price": 4900.38,
+          "high_price": 4953.23,
+          "low_price": 4892.27,
+          "close_price": 4943.02,
+          "volume": 31229000000.000004,
+          "turnover": 966039000000.0
+        },
+        {
+          "date": "2026-06-25",
+          "date_ms": 1782316800000,
+          "open_price": 4950.98,
+          "high_price": 5032.0,
+          "low_price": 4944.88,
+          "close_price": 5020.1,
+          "volume": 34861000000.0,
+          "turnover": 1112475000000.0
+        },
+        {
+          "date": "2026-06-26",
+          "date_ms": 1782403200000,
+          "open_price": 4981.83,
+          "high_price": 4981.98,
+          "low_price": 4845.19,
+          "close_price": 4868.22,
+          "volume": 34136000000.0,
+          "turnover": 1068592000000.0
+        },
+        {
+          "date": "2026-06-29",
+          "date_ms": 1782662400000,
+          "open_price": 4866.04,
+          "high_price": 4928.6,
+          "low_price": 4827.15,
+          "close_price": 4926.92,
+          "volume": 32442000000.0,
+          "turnover": 1055348000000.0
+        },
+        {
+          "date": "2026-06-30",
+          "date_ms": 1782748800000,
+          "open_price": 4914.49,
+          "high_price": 4987.56,
+          "low_price": 4914.49,
+          "close_price": 4979.43,
+          "volume": 30762000000.0,
+          "turnover": 988736000000.0
+        },
+        {
+          "date": "2026-07-01",
+          "date_ms": 1782835200000,
+          "open_price": 4972.69,
+          "high_price": 5017.38,
+          "low_price": 4925.63,
+          "close_price": 4958.98,
+          "volume": 34329000000.000004,
+          "turnover": 1102527000000.0
+        },
+        {
+          "date": "2026-07-02",
+          "date_ms": 1782921600000,
+          "open_price": 4865.17,
+          "high_price": 4896.99,
+          "low_price": 4800.48,
+          "close_price": 4812.3,
+          "volume": 34361000000.0,
+          "turnover": 1028419000000.0
+        },
+        {
+          "date": "2026-07-03",
+          "date_ms": 1783008000000,
+          "open_price": 4809.5,
+          "high_price": 4890.97,
+          "low_price": 4809.5,
+          "close_price": 4842.17,
+          "volume": 30170999999.999996,
+          "turnover": 943451000000.0
+        },
+        {
+          "date": "2026-07-06",
+          "date_ms": 1783267200000,
+          "open_price": 4868.54,
+          "high_price": 4878.32,
+          "low_price": 4789.8,
+          "close_price": 4842.0,
+          "volume": 29425000000.0,
+          "turnover": 909099000000.0
+        },
+        {
+          "date": "2026-07-07",
+          "date_ms": 1783353600000,
+          "open_price": 4813.87,
+          "high_price": 4839.51,
+          "low_price": 4756.73,
+          "close_price": 4792.26,
+          "volume": 24651000000.0,
+          "turnover": 764612000000.0
+        },
+        {
+          "date": "2026-07-08",
+          "date_ms": 1783440000000,
+          "open_price": 4804.48,
+          "high_price": 4830.05,
+          "low_price": 4751.4,
+          "close_price": 4755.53,
+          "volume": 24443000000.0,
+          "turnover": 784844000000.0
+        },
+        {
+          "date": "2026-07-09",
+          "date_ms": 1783526400000,
+          "open_price": 4774.4,
+          "high_price": 4882.85,
+          "low_price": 4734.87,
+          "close_price": 4876.31,
+          "volume": 28193000000.0,
+          "turnover": 947653000000.0001
+        },
+        {
+          "date": "2026-07-10",
+          "date_ms": 1783612800000,
+          "open_price": 4887.54,
+          "high_price": 4906.49,
+          "low_price": 4780.75,
+          "close_price": 4780.79,
+          "volume": 30427000000.0,
+          "turnover": 1084920000000.0001
+        },
+        {
+          "date": "2026-07-13",
+          "date_ms": 1783872000000,
+          "open_price": 4745.44,
+          "high_price": 4775.24,
+          "low_price": 4670.25,
+          "close_price": 4695.38,
+          "volume": 27932000000.0,
+          "turnover": 909518000000.0
+        },
+        {
+          "date": "2026-07-14",
+          "date_ms": 1783958400000,
+          "open_price": 4691.12,
+          "high_price": 4796.5,
+          "low_price": 4649.04,
+          "close_price": 4796.5,
+          "volume": 28351000000.0,
+          "turnover": 925577000000.0
+        },
+        {
+          "date": "2026-07-15",
+          "date_ms": 1784044800000,
+          "open_price": 4797.94,
+          "high_price": 4826.86,
+          "low_price": 4772.04,
+          "close_price": 4786.78,
+          "volume": 27883000000.0,
+          "turnover": 858631000000.0
+        },
+        {
+          "date": "2026-07-16",
+          "date_ms": 1784131200000,
+          "open_price": 4711.53,
+          "high_price": 4771.06,
+          "low_price": 4673.35,
+          "close_price": 4698.43,
+          "volume": 25202000000.0,
+          "turnover": 800626000000.0
+        },
+        {
+          "date": "2026-07-17",
+          "date_ms": 1784217600000,
+          "open_price": 4661.62,
+          "high_price": 4663.53,
+          "low_price": 4492.09,
+          "close_price": 4529.1,
+          "volume": 30273000000.0,
+          "turnover": 921771999999.9999
+        },
+        {
+          "date": "2026-07-20",
+          "date_ms": 1784476800000,
+          "open_price": 4575.67,
+          "high_price": 4628.8,
+          "low_price": 4521.18,
+          "close_price": 4598.32,
+          "volume": 33327999999.999996,
+          "turnover": 934126000000.0
+        },
+        {
+          "date": "2026-07-21",
+          "date_ms": 1784563200000,
+          "open_price": 4630.85,
+          "high_price": 4739.23,
+          "low_price": 4566.28,
+          "close_price": 4739.23,
+          "volume": 34564000000.0,
+          "turnover": 1018345000000.0001
+        },
+        {
+          "date": "2026-07-22",
+          "date_ms": 1784649600000,
+          "open_price": 4710.66,
+          "high_price": 4772.08,
+          "low_price": 4692.83,
+          "close_price": 4717.24,
+          "volume": 28577999999.999996,
+          "turnover": 922268000000.0
+        },
+        {
+          "date": "2026-07-23",
+          "date_ms": 1784736000000,
+          "open_price": 4735.17,
+          "high_price": 4737.51,
+          "low_price": 4698.87,
+          "close_price": 4728.0,
+          "volume": 24759000000.0,
+          "turnover": 743056000000.0
+        },
+        {
+          "date": "2026-07-24",
+          "date_ms": 1784822400000,
+          "open_price": 4685.41,
+          "high_price": 4704.08,
+          "low_price": 4642.94,
+          "close_price": 4649.19,
+          "volume": 22143000000.0,
+          "turnover": 627000000000.0
+        },
+        {
+          "date": "2026-07-27",
+          "date_ms": 1785081600000,
+          "open_price": 4656.03,
+          "high_price": 4702.52,
+          "low_price": 4615.53,
+          "close_price": 4702.43,
+          "volume": 20490000000.0,
+          "turnover": 604742000000.0
+        },
+        {
+          "date": "2026-07-28",
+          "date_ms": 1785168000000,
+          "open_price": 4623.8,
+          "high_price": 4646.49,
+          "low_price": 4552.23,
+          "close_price": 4569.52,
+          "volume": 21634000000.0,
+          "turnover": 652931000000.0
+        },
+        {
+          "date": "2026-07-29",
+          "date_ms": 1785254400000,
+          "open_price": 4582.09,
+          "high_price": 4626.71,
+          "low_price": 4516.32,
+          "close_price": 4600.26,
+          "volume": 24823000000.0,
+          "turnover": 752327000000.0
+        },
+        {
+          "date": "2026-07-30",
+          "date_ms": 1785340800000,
+          "open_price": 4566.05,
+          "high_price": 4596.21,
+          "low_price": 4478.21,
+          "close_price": 4549.72,
+          "volume": 27481000000.0,
+          "turnover": 804303000000.0
+        },
+        {
+          "date": "2026-07-31",
+          "date_ms": 1785427200000,
+          "open_price": 4623.85,
+          "high_price": 4635.59,
+          "low_price": 4588.2,
+          "close_price": 4588.2,
+          "volume": 27955000000.0,
+          "turnover": 833956000000.0
+        },
+        {
+          "date": "2026-08-03",
+          "date_ms": 1785686400000,
+          "open_price": 4561.82,
+          "high_price": 4572.59,
+          "low_price": 4529.19,
+          "close_price": 4543.18,
+          "volume": 23232000000.0,
+          "turnover": 616818000000.0
+        },
+        {
+          "date": "2026-08-04",
+          "date_ms": 1785772800000,
+          "open_price": 4566.94,
+          "high_price": 4613.69,
+          "low_price": 4555.25,
+          "close_price": 4600.93,
+          "volume": 24220000000.0,
+          "turnover": 699142000000.0
+        },
+        {
+          "date": "2026-08-05",
+          "date_ms": 1785859200000,
+          "open_price": 4550.19,
+          "high_price": 4679.86,
+          "low_price": 4550.19,
+          "close_price": 4658.15,
+          "volume": 27708000000.0,
+          "turnover": 879640000000.0
+        },
+        {
+          "date": "2026-08-06",
+          "date_ms": 1785945600000,
+          "open_price": 4621.8,
+          "high_price": 4675.65,
+          "low_price": 4611.07,
+          "close_price": 4651.31,
+          "volume": 24765000000.0,
+          "turnover": 748702000000.0
+        },
+        {
+          "date": "2026-08-07",
+          "date_ms": 1786032000000,
+          "open_price": 4656.1,
+          "high_price": 4706.73,
+          "low_price": 4649.58,
+          "close_price": 4694.44,
+          "volume": 23939000000.0,
+          "turnover": 788976000000.0
+        },
+        {
+          "date": "2026-08-10",
+          "date_ms": 1786291200000,
+          "open_price": 4698.82,
+          "high_price": 4714.46,
+          "low_price": 4659.47,
+          "close_price": 4702.02,
+          "volume": 21324000000.0,
+          "turnover": 733865000000.0
+        },
+        {
+          "date": "2026-08-11",
+          "date_ms": 1786377600000,
+          "open_price": 4689.45,
+          "high_price": 4715.88,
+          "low_price": 4660.47,
+          "close_price": 4663.79,
+          "volume": 20993000000.0,
+          "turnover": 646182000000.0
+        },
+        {
+          "date": "2026-08-12",
+          "date_ms": 1786464000000,
+          "open_price": 4660.47,
+          "high_price": 4700.43,
+          "low_price": 4657.69,
+          "close_price": 4690.92,
+          "volume": 18507000000.0,
+          "turnover": 575658000000.0
+        },
+        {
+          "date": "2026-08-13",
+          "date_ms": 1786550400000,
+          "open_price": 4716.97,
+          "high_price": 4727.23,
+          "low_price": 4661.88,
+          "close_price": 4663.95,
+          "volume": 21572000000.0,
+          "turnover": 691540000000.0
+        },
+        {
+          "date": "2026-08-14",
+          "date_ms": 1786636800000,
+          "open_price": 4672.98,
+          "high_price": 4676.71,
+          "low_price": 4637.13,
+          "close_price": 4665.88,
+          "volume": 17857000000.0,
+          "turnover": 550156000000.0
+        },
+        {
+          "date": "2026-08-17",
+          "date_ms": 1786896000000,
+          "open_price": 4672.28,
+          "high_price": 4742.4,
+          "low_price": 4662.72,
+          "close_price": 4741.1,
+          "volume": 19068000000.0,
+          "turnover": 658031000000.0
+        },
+        {
+          "date": "2026-08-18",
+          "date_ms": 1786982400000,
+          "open_price": 4734.07,
+          "high_price": 4744.01,
+          "low_price": 4687.53,
+          "close_price": 4725.81,
+          "volume": 20432000000.0,
+          "turnover": 620013000000.0
+        },
+        {
+          "date": "2026-08-19",
+          "date_ms": 1787068800000,
+          "open_price": 4660.06,
+          "high_price": 4674.38,
+          "low_price": 4568.07,
+          "close_price": 4588.7,
+          "volume": 24418000000.0,
+          "turnover": 705524000000.0
+        },
+        {
+          "date": "2026-08-20",
+          "date_ms": 1787155200000,
+          "open_price": 4613.3,
+          "high_price": 4631.13,
+          "low_price": 4569.23,
+          "close_price": 4592.75,
+          "volume": 20109000000.0,
+          "turnover": 554579000000.0
+        },
+        {
+          "date": "2026-08-21",
+          "date_ms": 1787241600000,
+          "open_price": 4585.44,
+          "high_price": 4629.0,
+          "low_price": 4579.26,
+          "close_price": 4618.9,
+          "volume": 17133000000.000002,
+          "turnover": 506497999999.99994
+        },
+        {
+          "date": "2026-08-24",
+          "date_ms": 1787500800000,
+          "open_price": 4620.95,
+          "high_price": 4621.39,
+          "low_price": 4527.49,
+          "close_price": 4563.13,
+          "volume": 20670000000.0,
+          "turnover": 590622000000.0
+        },
+        {
+          "date": "2026-08-25",
+          "date_ms": 1787587200000,
+          "open_price": 4542.24,
+          "high_price": 4573.38,
+          "low_price": 4523.02,
+          "close_price": 4552.03,
+          "volume": 17360000000.0,
+          "turnover": 481270000000.0
+        },
+        {
+          "date": "2026-08-26",
+          "date_ms": 1787673600000,
+          "open_price": 4549.43,
+          "high_price": 4612.04,
+          "low_price": 4542.84,
+          "close_price": 4590.79,
+          "volume": 18575000000.0,
+          "turnover": 489603000000.0
+        },
+        {
+          "date": "2026-08-27",
+          "date_ms": 1787760000000,
+          "open_price": 4594.48,
+          "high_price": 4631.35,
+          "low_price": 4584.99,
+          "close_price": 4630.28,
+          "volume": 20228000000.0,
+          "turnover": 587615000000.0
+        },
+        {
+          "date": "2026-08-28",
+          "date_ms": 1787846400000,
+          "open_price": 4615.84,
+          "high_price": 4643.34,
+          "low_price": 4608.46,
+          "close_price": 4609.18,
+          "volume": 18123000000.0,
+          "turnover": 550464000000.0
+        },
+        {
+          "date": "2026-08-31",
+          "date_ms": 1788105600000,
+          "open_price": 4561.99,
+          "high_price": 4625.09,
+          "low_price": 4557.35,
+          "close_price": 4625.09,
+          "volume": 23760000000.0,
+          "turnover": 583999000000.0
+        }
+      ],
+      "raw_sources": [
+        {
+          "file": "000300.SH-202606-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_CSI300_INDEX_C&isPagination=false&MDATE=202606",
+          "sha256": "7df11ca99f0237f84fee740a40afbe90c8ff0d9c86a6cb7e6311c1464922f071",
+          "count": 21
+        },
+        {
+          "file": "000300.SH-202607-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_CSI300_INDEX_C&isPagination=false&MDATE=202607",
+          "sha256": "108f4c53f05ecfde46d73e23a2be53c0841020283a0fe8c6aa6e6c30e899b989",
+          "count": 23
+        },
+        {
+          "file": "000300.SH-202608-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_CSI300_INDEX_C&isPagination=false&MDATE=202608",
+          "sha256": "13d40a76a2d30285370b4f4ecda5f0d320ab5249fe81b9178a044419caeda7df",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "thscode": "000016.SH",
+      "name": "上证50",
+      "bars": [
+        {
+          "date": "2026-06-01",
+          "date_ms": 1780243200000,
+          "open_price": 2918.12,
+          "high_price": 2922.82,
+          "low_price": 2887.76,
+          "close_price": 2893.72,
+          "volume": 5975000000.0,
+          "turnover": 182740000000.0
+        },
+        {
+          "date": "2026-06-02",
+          "date_ms": 1780329600000,
+          "open_price": 2897.97,
+          "high_price": 2931.57,
+          "low_price": 2892.26,
+          "close_price": 2920.27,
+          "volume": 5998000000.0,
+          "turnover": 171697000000.0
+        },
+        {
+          "date": "2026-06-03",
+          "date_ms": 1780416000000,
+          "open_price": 2913.21,
+          "high_price": 2939.72,
+          "low_price": 2906.83,
+          "close_price": 2920.92,
+          "volume": 5585000000.0,
+          "turnover": 190340000000.0
+        },
+        {
+          "date": "2026-06-04",
+          "date_ms": 1780502400000,
+          "open_price": 2902.27,
+          "high_price": 2918.66,
+          "low_price": 2884.2,
+          "close_price": 2891.35,
+          "volume": 4466000000.0,
+          "turnover": 143046000000.0
+        },
+        {
+          "date": "2026-06-05",
+          "date_ms": 1780588800000,
+          "open_price": 2883.28,
+          "high_price": 2908.68,
+          "low_price": 2859.21,
+          "close_price": 2865.87,
+          "volume": 5335000000.0,
+          "turnover": 164219000000.0
+        },
+        {
+          "date": "2026-06-08",
+          "date_ms": 1780848000000,
+          "open_price": 2818.68,
+          "high_price": 2846.51,
+          "low_price": 2806.33,
+          "close_price": 2825.01,
+          "volume": 6459000000.0,
+          "turnover": 165633000000.0
+        },
+        {
+          "date": "2026-06-09",
+          "date_ms": 1780934400000,
+          "open_price": 2830.88,
+          "high_price": 2844.23,
+          "low_price": 2814.83,
+          "close_price": 2842.69,
+          "volume": 5411000000.0,
+          "turnover": 146680000000.0
+        },
+        {
+          "date": "2026-06-10",
+          "date_ms": 1781020800000,
+          "open_price": 2829.65,
+          "high_price": 2859.92,
+          "low_price": 2826.86,
+          "close_price": 2850.37,
+          "volume": 5901000000.0,
+          "turnover": 173667000000.0
+        },
+        {
+          "date": "2026-06-11",
+          "date_ms": 1781107200000,
+          "open_price": 2842.67,
+          "high_price": 2852.21,
+          "low_price": 2827.86,
+          "close_price": 2845.92,
+          "volume": 5217000000.0,
+          "turnover": 144052000000.0
+        },
+        {
+          "date": "2026-06-12",
+          "date_ms": 1781193600000,
+          "open_price": 2864.99,
+          "high_price": 2901.65,
+          "low_price": 2851.54,
+          "close_price": 2890.8,
+          "volume": 8037000000.0,
+          "turnover": 219753000000.00003
+        },
+        {
+          "date": "2026-06-15",
+          "date_ms": 1781452800000,
+          "open_price": 2919.69,
+          "high_price": 2946.02,
+          "low_price": 2915.15,
+          "close_price": 2938.65,
+          "volume": 7751000000.000001,
+          "turnover": 246237000000.0
+        },
+        {
+          "date": "2026-06-16",
+          "date_ms": 1781539200000,
+          "open_price": 2933.96,
+          "high_price": 2936.7,
+          "low_price": 2904.36,
+          "close_price": 2913.99,
+          "volume": 5724000000.0,
+          "turnover": 203915000000.0
+        },
+        {
+          "date": "2026-06-17",
+          "date_ms": 1781625600000,
+          "open_price": 2905.21,
+          "high_price": 2936.61,
+          "low_price": 2901.42,
+          "close_price": 2934.47,
+          "volume": 5353000000.0,
+          "turnover": 226050000000.0
+        },
+        {
+          "date": "2026-06-18",
+          "date_ms": 1781712000000,
+          "open_price": 2926.49,
+          "high_price": 2956.23,
+          "low_price": 2924.34,
+          "close_price": 2928.75,
+          "volume": 7097000000.0,
+          "turnover": 289795000000.0
+        },
+        {
+          "date": "2026-06-22",
+          "date_ms": 1782057600000,
+          "open_price": 2929.73,
+          "high_price": 3015.16,
+          "low_price": 2915.54,
+          "close_price": 3012.65,
+          "volume": 8129000000.000001,
+          "turnover": 308566000000.0
+        },
+        {
+          "date": "2026-06-23",
+          "date_ms": 1782144000000,
+          "open_price": 2998.03,
+          "high_price": 3019.34,
+          "low_price": 2913.24,
+          "close_price": 2926.83,
+          "volume": 7829000000.000001,
+          "turnover": 289692000000.0
+        },
+        {
+          "date": "2026-06-24",
+          "date_ms": 1782230400000,
+          "open_price": 2919.85,
+          "high_price": 2948.06,
+          "low_price": 2919.85,
+          "close_price": 2943.9,
+          "volume": 6426000000.000001,
+          "turnover": 266853000000.00003
+        },
+        {
+          "date": "2026-06-25",
+          "date_ms": 1782316800000,
+          "open_price": 2944.45,
+          "high_price": 2993.02,
+          "low_price": 2942.55,
+          "close_price": 2977.57,
+          "volume": 7045999999.999999,
+          "turnover": 300224000000.0
+        },
+        {
+          "date": "2026-06-26",
+          "date_ms": 1782403200000,
+          "open_price": 2961.04,
+          "high_price": 2965.41,
+          "low_price": 2887.76,
+          "close_price": 2906.94,
+          "volume": 6385000000.0,
+          "turnover": 265001000000.00003
+        },
+        {
+          "date": "2026-06-29",
+          "date_ms": 1782662400000,
+          "open_price": 2911.34,
+          "high_price": 2991.52,
+          "low_price": 2904.93,
+          "close_price": 2991.08,
+          "volume": 6456999999.999999,
+          "turnover": 293727000000.0
+        },
+        {
+          "date": "2026-06-30",
+          "date_ms": 1782748800000,
+          "open_price": 2972.35,
+          "high_price": 2993.48,
+          "low_price": 2963.45,
+          "close_price": 2989.4,
+          "volume": 6012000000.0,
+          "turnover": 274030000000.00003
+        },
+        {
+          "date": "2026-07-01",
+          "date_ms": 1782835200000,
+          "open_price": 2976.36,
+          "high_price": 3015.63,
+          "low_price": 2966.36,
+          "close_price": 2985.24,
+          "volume": 6327000000.0,
+          "turnover": 299931000000.0
+        },
+        {
+          "date": "2026-07-02",
+          "date_ms": 1782921600000,
+          "open_price": 2938.77,
+          "high_price": 2957.88,
+          "low_price": 2905.85,
+          "close_price": 2912.28,
+          "volume": 6587000000.0,
+          "turnover": 276825000000.0
+        },
+        {
+          "date": "2026-07-03",
+          "date_ms": 1783008000000,
+          "open_price": 2917.52,
+          "high_price": 2957.26,
+          "low_price": 2917.48,
+          "close_price": 2931.28,
+          "volume": 5989000000.0,
+          "turnover": 249246999999.99997
+        },
+        {
+          "date": "2026-07-06",
+          "date_ms": 1783267200000,
+          "open_price": 2949.92,
+          "high_price": 2966.28,
+          "low_price": 2920.83,
+          "close_price": 2957.97,
+          "volume": 6014000000.0,
+          "turnover": 247757000000.00003
+        },
+        {
+          "date": "2026-07-07",
+          "date_ms": 1783353600000,
+          "open_price": 2932.81,
+          "high_price": 2952.49,
+          "low_price": 2910.66,
+          "close_price": 2921.89,
+          "volume": 5207000000.0,
+          "turnover": 206485000000.0
+        },
+        {
+          "date": "2026-07-08",
+          "date_ms": 1783440000000,
+          "open_price": 2929.9,
+          "high_price": 2955.52,
+          "low_price": 2915.8,
+          "close_price": 2920.84,
+          "volume": 5173000000.0,
+          "turnover": 211266000000.0
+        },
+        {
+          "date": "2026-07-09",
+          "date_ms": 1783526400000,
+          "open_price": 2926.14,
+          "high_price": 2999.49,
+          "low_price": 2921.88,
+          "close_price": 2995.79,
+          "volume": 5739000000.0,
+          "turnover": 266139000000.0
+        },
+        {
+          "date": "2026-07-10",
+          "date_ms": 1783612800000,
+          "open_price": 2996.84,
+          "high_price": 3026.43,
+          "low_price": 2955.49,
+          "close_price": 2955.52,
+          "volume": 6039000000.0,
+          "turnover": 302636000000.0
+        },
+        {
+          "date": "2026-07-13",
+          "date_ms": 1783872000000,
+          "open_price": 2931.5,
+          "high_price": 2952.93,
+          "low_price": 2901.46,
+          "close_price": 2913.19,
+          "volume": 6394000000.0,
+          "turnover": 256233000000.0
+        },
+        {
+          "date": "2026-07-14",
+          "date_ms": 1783958400000,
+          "open_price": 2909.93,
+          "high_price": 2955.55,
+          "low_price": 2875.36,
+          "close_price": 2955.55,
+          "volume": 6713000000.0,
+          "turnover": 261396999999.99997
+        },
+        {
+          "date": "2026-07-15",
+          "date_ms": 1784044800000,
+          "open_price": 2955.76,
+          "high_price": 2983.41,
+          "low_price": 2948.09,
+          "close_price": 2967.07,
+          "volume": 6198000000.0,
+          "turnover": 250592000000.0
+        },
+        {
+          "date": "2026-07-16",
+          "date_ms": 1784131200000,
+          "open_price": 2927.32,
+          "high_price": 2948.95,
+          "low_price": 2892.05,
+          "close_price": 2904.12,
+          "volume": 5613000000.0,
+          "turnover": 232734000000.0
+        },
+        {
+          "date": "2026-07-17",
+          "date_ms": 1784217600000,
+          "open_price": 2887.09,
+          "high_price": 2890.1,
+          "low_price": 2814.36,
+          "close_price": 2827.67,
+          "volume": 7148000000.0,
+          "turnover": 257664000000.0
+        },
+        {
+          "date": "2026-07-20",
+          "date_ms": 1784476800000,
+          "open_price": 2852.25,
+          "high_price": 2912.85,
+          "low_price": 2852.25,
+          "close_price": 2912.85,
+          "volume": 8909000000.0,
+          "turnover": 283613000000.0
+        },
+        {
+          "date": "2026-07-21",
+          "date_ms": 1784563200000,
+          "open_price": 2953.01,
+          "high_price": 2973.83,
+          "low_price": 2904.48,
+          "close_price": 2973.81,
+          "volume": 8195000000.0,
+          "turnover": 292824000000.0
+        },
+        {
+          "date": "2026-07-22",
+          "date_ms": 1784649600000,
+          "open_price": 2954.88,
+          "high_price": 3008.38,
+          "low_price": 2954.88,
+          "close_price": 2991.05,
+          "volume": 6903000000.0,
+          "turnover": 268590000000.0
+        },
+        {
+          "date": "2026-07-23",
+          "date_ms": 1784736000000,
+          "open_price": 3003.5,
+          "high_price": 3003.5,
+          "low_price": 2966.9,
+          "close_price": 2978.77,
+          "volume": 5756000000.0,
+          "turnover": 204444000000.0
+        },
+        {
+          "date": "2026-07-24",
+          "date_ms": 1784822400000,
+          "open_price": 2971.51,
+          "high_price": 2971.95,
+          "low_price": 2941.3,
+          "close_price": 2956.35,
+          "volume": 5842000000.0,
+          "turnover": 189766000000.0
+        },
+        {
+          "date": "2026-07-27",
+          "date_ms": 1785081600000,
+          "open_price": 2976.92,
+          "high_price": 2976.92,
+          "low_price": 2919.46,
+          "close_price": 2950.43,
+          "volume": 5095000000.0,
+          "turnover": 174100000000.0
+        },
+        {
+          "date": "2026-07-28",
+          "date_ms": 1785168000000,
+          "open_price": 2921.31,
+          "high_price": 2931.15,
+          "low_price": 2901.73,
+          "close_price": 2923.21,
+          "volume": 5775000000.0,
+          "turnover": 181064000000.0
+        },
+        {
+          "date": "2026-07-29",
+          "date_ms": 1785254400000,
+          "open_price": 2948.71,
+          "high_price": 2948.71,
+          "low_price": 2885.19,
+          "close_price": 2915.19,
+          "volume": 5916000000.0,
+          "turnover": 220359000000.0
+        },
+        {
+          "date": "2026-07-30",
+          "date_ms": 1785340800000,
+          "open_price": 2902.38,
+          "high_price": 2932.72,
+          "low_price": 2881.52,
+          "close_price": 2926.48,
+          "volume": 6800000000.0,
+          "turnover": 238060000000.0
+        },
+        {
+          "date": "2026-07-31",
+          "date_ms": 1785427200000,
+          "open_price": 2944.94,
+          "high_price": 2946.17,
+          "low_price": 2919.41,
+          "close_price": 2922.97,
+          "volume": 7129000000.000001,
+          "turnover": 241219000000.0
+        },
+        {
+          "date": "2026-08-03",
+          "date_ms": 1785686400000,
+          "open_price": 2908.51,
+          "high_price": 2912.21,
+          "low_price": 2873.56,
+          "close_price": 2887.05,
+          "volume": 5699000000.0,
+          "turnover": 185379000000.0
+        },
+        {
+          "date": "2026-08-04",
+          "date_ms": 1785772800000,
+          "open_price": 2890.99,
+          "high_price": 2892.4,
+          "low_price": 2867.93,
+          "close_price": 2878.67,
+          "volume": 6108000000.0,
+          "turnover": 195247000000.0
+        },
+        {
+          "date": "2026-08-05",
+          "date_ms": 1785859200000,
+          "open_price": 2882.51,
+          "high_price": 2932.4,
+          "low_price": 2882.51,
+          "close_price": 2924.06,
+          "volume": 6594000000.0,
+          "turnover": 237255000000.00003
+        },
+        {
+          "date": "2026-08-06",
+          "date_ms": 1785945600000,
+          "open_price": 2913.41,
+          "high_price": 2925.67,
+          "low_price": 2906.45,
+          "close_price": 2920.13,
+          "volume": 5793000000.0,
+          "turnover": 193990000000.0
+        },
+        {
+          "date": "2026-08-07",
+          "date_ms": 1786032000000,
+          "open_price": 2917.44,
+          "high_price": 2960.94,
+          "low_price": 2913.59,
+          "close_price": 2960.42,
+          "volume": 5139000000.0,
+          "turnover": 203631000000.0
+        },
+        {
+          "date": "2026-08-10",
+          "date_ms": 1786291200000,
+          "open_price": 2963.24,
+          "high_price": 2980.64,
+          "low_price": 2954.62,
+          "close_price": 2967.73,
+          "volume": 4796000000.0,
+          "turnover": 209887000000.0
+        },
+        {
+          "date": "2026-08-11",
+          "date_ms": 1786377600000,
+          "open_price": 2956.6,
+          "high_price": 2971.4,
+          "low_price": 2928.19,
+          "close_price": 2929.93,
+          "volume": 4964000000.0,
+          "turnover": 181634000000.0
+        },
+        {
+          "date": "2026-08-12",
+          "date_ms": 1786464000000,
+          "open_price": 2931.32,
+          "high_price": 2944.0,
+          "low_price": 2925.04,
+          "close_price": 2938.39,
+          "volume": 4426000000.0,
+          "turnover": 156089000000.0
+        },
+        {
+          "date": "2026-08-13",
+          "date_ms": 1786550400000,
+          "open_price": 2945.5,
+          "high_price": 2960.24,
+          "low_price": 2925.8,
+          "close_price": 2928.12,
+          "volume": 5207000000.0,
+          "turnover": 190527000000.0
+        },
+        {
+          "date": "2026-08-14",
+          "date_ms": 1786636800000,
+          "open_price": 2931.94,
+          "high_price": 2932.84,
+          "low_price": 2905.11,
+          "close_price": 2916.13,
+          "volume": 4144000000.0,
+          "turnover": 152663000000.0
+        },
+        {
+          "date": "2026-08-17",
+          "date_ms": 1786896000000,
+          "open_price": 2913.68,
+          "high_price": 2946.42,
+          "low_price": 2907.71,
+          "close_price": 2945.41,
+          "volume": 4075000000.0,
+          "turnover": 179049000000.0
+        },
+        {
+          "date": "2026-08-18",
+          "date_ms": 1786982400000,
+          "open_price": 2940.53,
+          "high_price": 2944.6,
+          "low_price": 2917.33,
+          "close_price": 2940.7,
+          "volume": 4425000000.0,
+          "turnover": 167488000000.0
+        },
+        {
+          "date": "2026-08-19",
+          "date_ms": 1787068800000,
+          "open_price": 2913.75,
+          "high_price": 2918.06,
+          "low_price": 2875.75,
+          "close_price": 2895.57,
+          "volume": 5886000000.0,
+          "turnover": 193735000000.0
+        },
+        {
+          "date": "2026-08-20",
+          "date_ms": 1787155200000,
+          "open_price": 2902.96,
+          "high_price": 2911.72,
+          "low_price": 2872.97,
+          "close_price": 2881.44,
+          "volume": 5052000000.0,
+          "turnover": 169383000000.0
+        },
+        {
+          "date": "2026-08-21",
+          "date_ms": 1787241600000,
+          "open_price": 2875.65,
+          "high_price": 2891.59,
+          "low_price": 2872.13,
+          "close_price": 2883.55,
+          "volume": 4017000000.0,
+          "turnover": 137734000000.0
+        },
+        {
+          "date": "2026-08-24",
+          "date_ms": 1787500800000,
+          "open_price": 2882.64,
+          "high_price": 2888.42,
+          "low_price": 2857.3,
+          "close_price": 2870.8,
+          "volume": 5362000000.0,
+          "turnover": 174931000000.0
+        },
+        {
+          "date": "2026-08-25",
+          "date_ms": 1787587200000,
+          "open_price": 2864.46,
+          "high_price": 2881.12,
+          "low_price": 2859.29,
+          "close_price": 2875.51,
+          "volume": 4227000000.0000005,
+          "turnover": 134395000000.0
+        },
+        {
+          "date": "2026-08-26",
+          "date_ms": 1787673600000,
+          "open_price": 2871.89,
+          "high_price": 2914.18,
+          "low_price": 2870.42,
+          "close_price": 2905.08,
+          "volume": 4536000000.0,
+          "turnover": 140239000000.0
+        },
+        {
+          "date": "2026-08-27",
+          "date_ms": 1787760000000,
+          "open_price": 2905.25,
+          "high_price": 2931.11,
+          "low_price": 2905.25,
+          "close_price": 2930.31,
+          "volume": 4578000000.0,
+          "turnover": 158617000000.0
+        },
+        {
+          "date": "2026-08-28",
+          "date_ms": 1787846400000,
+          "open_price": 2920.8,
+          "high_price": 2933.47,
+          "low_price": 2916.71,
+          "close_price": 2923.33,
+          "volume": 4007000000.0,
+          "turnover": 139092000000.0
+        },
+        {
+          "date": "2026-08-31",
+          "date_ms": 1788105600000,
+          "open_price": 2896.97,
+          "high_price": 2936.88,
+          "low_price": 2895.89,
+          "close_price": 2936.88,
+          "volume": 5749000000.0,
+          "turnover": 165678000000.0
+        }
+      ],
+      "raw_sources": [
+        {
+          "file": "000016.SH-202606-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_SSE50_INDEX_C&isPagination=false&MDATE=202606",
+          "sha256": "c2438bfd919e64134b32083ad57fb3ce8babb9c1170e48ed1534c42e3d6bbbfa",
+          "count": 21
+        },
+        {
+          "file": "000016.SH-202607-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_SSE50_INDEX_C&isPagination=false&MDATE=202607",
+          "sha256": "c86f17829477cb46d583ecf7b604731a52585e8876e3dfac721e9f428a9213cf",
+          "count": 23
+        },
+        {
+          "file": "000016.SH-202608-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_SSE50_INDEX_C&isPagination=false&MDATE=202608",
+          "sha256": "4a9b9c9ca97d1b678b973ffdaf4979f6303dc89ef9e18c82c8c9356ab46a1f77",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "thscode": "000688.SH",
+      "name": "科创50",
+      "bars": [
+        {
+          "date": "2026-06-01",
+          "date_ms": 1780243200000,
+          "open_price": 1751.23,
+          "high_price": 1753.02,
+          "low_price": 1662.82,
+          "close_price": 1663.69,
+          "volume": 1695000000.0,
+          "turnover": 149987000000.0
+        },
+        {
+          "date": "2026-06-02",
+          "date_ms": 1780329600000,
+          "open_price": 1676.31,
+          "high_price": 1710.98,
+          "low_price": 1641.17,
+          "close_price": 1690.56,
+          "volume": 1559000000.0,
+          "turnover": 133767000000.0
+        },
+        {
+          "date": "2026-06-03",
+          "date_ms": 1780416000000,
+          "open_price": 1697.66,
+          "high_price": 1776.2,
+          "low_price": 1697.36,
+          "close_price": 1726.18,
+          "volume": 1689000000.0,
+          "turnover": 166492000000.0
+        },
+        {
+          "date": "2026-06-04",
+          "date_ms": 1780502400000,
+          "open_price": 1700.31,
+          "high_price": 1759.98,
+          "low_price": 1697.22,
+          "close_price": 1738.06,
+          "volume": 1504000000.0,
+          "turnover": 132816000000.00002
+        },
+        {
+          "date": "2026-06-05",
+          "date_ms": 1780588800000,
+          "open_price": 1706.53,
+          "high_price": 1735.08,
+          "low_price": 1659.48,
+          "close_price": 1668.33,
+          "volume": 1684000000.0,
+          "turnover": 136867000000.0
+        },
+        {
+          "date": "2026-06-08",
+          "date_ms": 1780848000000,
+          "open_price": 1587.97,
+          "high_price": 1634.03,
+          "low_price": 1578.18,
+          "close_price": 1596.57,
+          "volume": 1571000000.0,
+          "turnover": 119409999999.99998
+        },
+        {
+          "date": "2026-06-09",
+          "date_ms": 1780934400000,
+          "open_price": 1630.23,
+          "high_price": 1666.48,
+          "low_price": 1607.58,
+          "close_price": 1663.11,
+          "volume": 1410000000.0,
+          "turnover": 112377000000.0
+        },
+        {
+          "date": "2026-06-10",
+          "date_ms": 1781020800000,
+          "open_price": 1662.85,
+          "high_price": 1722.33,
+          "low_price": 1632.33,
+          "close_price": 1652.22,
+          "volume": 1591000000.0,
+          "turnover": 139108000000.0
+        },
+        {
+          "date": "2026-06-11",
+          "date_ms": 1781107200000,
+          "open_price": 1644.6,
+          "high_price": 1676.53,
+          "low_price": 1631.94,
+          "close_price": 1662.44,
+          "volume": 1423000000.0,
+          "turnover": 117186999999.99998
+        },
+        {
+          "date": "2026-06-12",
+          "date_ms": 1781193600000,
+          "open_price": 1726.01,
+          "high_price": 1730.89,
+          "low_price": 1656.85,
+          "close_price": 1663.22,
+          "volume": 2104000000.0,
+          "turnover": 176190000000.0
+        },
+        {
+          "date": "2026-06-15",
+          "date_ms": 1781452800000,
+          "open_price": 1687.67,
+          "high_price": 1748.51,
+          "low_price": 1658.32,
+          "close_price": 1748.33,
+          "volume": 1614000000.0,
+          "turnover": 158496000000.0
+        },
+        {
+          "date": "2026-06-16",
+          "date_ms": 1781539200000,
+          "open_price": 1751.71,
+          "high_price": 1766.14,
+          "low_price": 1729.04,
+          "close_price": 1758.42,
+          "volume": 1502000000.0,
+          "turnover": 142674000000.0
+        },
+        {
+          "date": "2026-06-17",
+          "date_ms": 1781625600000,
+          "open_price": 1729.23,
+          "high_price": 1841.37,
+          "low_price": 1725.9,
+          "close_price": 1840.82,
+          "volume": 1802000000.0,
+          "turnover": 176947000000.0
+        },
+        {
+          "date": "2026-06-18",
+          "date_ms": 1781712000000,
+          "open_price": 1837.07,
+          "high_price": 1937.3,
+          "low_price": 1836.04,
+          "close_price": 1911.51,
+          "volume": 1772000000.0,
+          "turnover": 209644000000.0
+        },
+        {
+          "date": "2026-06-22",
+          "date_ms": 1782057600000,
+          "open_price": 1922.47,
+          "high_price": 1963.33,
+          "low_price": 1879.59,
+          "close_price": 1948.93,
+          "volume": 1920000000.0,
+          "turnover": 201082000000.0
+        },
+        {
+          "date": "2026-06-23",
+          "date_ms": 1782144000000,
+          "open_price": 1929.27,
+          "high_price": 1982.91,
+          "low_price": 1890.16,
+          "close_price": 1916.21,
+          "volume": 1814999999.9999998,
+          "turnover": 187190000000.0
+        },
+        {
+          "date": "2026-06-24",
+          "date_ms": 1782230400000,
+          "open_price": 1896.34,
+          "high_price": 1997.9,
+          "low_price": 1886.74,
+          "close_price": 1989.43,
+          "volume": 1855999999.9999998,
+          "turnover": 195366000000.0
+        },
+        {
+          "date": "2026-06-25",
+          "date_ms": 1782316800000,
+          "open_price": 2004.77,
+          "high_price": 2076.88,
+          "low_price": 2000.8,
+          "close_price": 2066.33,
+          "volume": 1855999999.9999998,
+          "turnover": 221392000000.0
+        },
+        {
+          "date": "2026-06-26",
+          "date_ms": 1782403200000,
+          "open_price": 2034.43,
+          "high_price": 2076.47,
+          "low_price": 1976.92,
+          "close_price": 2032.28,
+          "volume": 1970000000.0,
+          "turnover": 201838000000.0
+        },
+        {
+          "date": "2026-06-29",
+          "date_ms": 1782662400000,
+          "open_price": 2039.67,
+          "high_price": 2127.8,
+          "low_price": 2013.51,
+          "close_price": 2126.01,
+          "volume": 2069000000.0000002,
+          "turnover": 230455000000.00003
+        },
+        {
+          "date": "2026-06-30",
+          "date_ms": 1782748800000,
+          "open_price": 2132.88,
+          "high_price": 2214.61,
+          "low_price": 2113.95,
+          "close_price": 2207.86,
+          "volume": 1963000000.0,
+          "turnover": 219467999999.99997
+        },
+        {
+          "date": "2026-07-01",
+          "date_ms": 1782835200000,
+          "open_price": 2205.66,
+          "high_price": 2255.25,
+          "low_price": 2120.36,
+          "close_price": 2153.04,
+          "volume": 2258000000.0,
+          "turnover": 232352000000.0
+        },
+        {
+          "date": "2026-07-02",
+          "date_ms": 1782921600000,
+          "open_price": 2059.9,
+          "high_price": 2105.29,
+          "low_price": 1978.32,
+          "close_price": 1987.29,
+          "volume": 2091000000.0,
+          "turnover": 214969999999.99997
+        },
+        {
+          "date": "2026-07-03",
+          "date_ms": 1783008000000,
+          "open_price": 1978.75,
+          "high_price": 2039.31,
+          "low_price": 1948.17,
+          "close_price": 1975.6,
+          "volume": 1759000000.0,
+          "turnover": 174936000000.0
+        },
+        {
+          "date": "2026-07-06",
+          "date_ms": 1783267200000,
+          "open_price": 2015.18,
+          "high_price": 2022.91,
+          "low_price": 1913.82,
+          "close_price": 1996.1,
+          "volume": 1652000000.0,
+          "turnover": 173590000000.0
+        },
+        {
+          "date": "2026-07-07",
+          "date_ms": 1783353600000,
+          "open_price": 1965.8,
+          "high_price": 2039.6,
+          "low_price": 1950.98,
+          "close_price": 2001.59,
+          "volume": 1400000000.0,
+          "turnover": 160146000000.0
+        },
+        {
+          "date": "2026-07-08",
+          "date_ms": 1783440000000,
+          "open_price": 2022.45,
+          "high_price": 2078.64,
+          "low_price": 1961.64,
+          "close_price": 2016.23,
+          "volume": 1574000000.0,
+          "turnover": 169875000000.0
+        },
+        {
+          "date": "2026-07-09",
+          "date_ms": 1783526400000,
+          "open_price": 2047.24,
+          "high_price": 2188.98,
+          "low_price": 2023.54,
+          "close_price": 2185.83,
+          "volume": 1859000000.0,
+          "turnover": 224689000000.0
+        },
+        {
+          "date": "2026-07-10",
+          "date_ms": 1783612800000,
+          "open_price": 2190.18,
+          "high_price": 2233.54,
+          "low_price": 2064.98,
+          "close_price": 2064.98,
+          "volume": 2308000000.0,
+          "turnover": 235237000000.0
+        },
+        {
+          "date": "2026-07-13",
+          "date_ms": 1783872000000,
+          "open_price": 2038.36,
+          "high_price": 2110.18,
+          "low_price": 1974.05,
+          "close_price": 1994.32,
+          "volume": 1834000000.0,
+          "turnover": 214917000000.0
+        },
+        {
+          "date": "2026-07-14",
+          "date_ms": 1783958400000,
+          "open_price": 1994.44,
+          "high_price": 2026.47,
+          "low_price": 1895.56,
+          "close_price": 2009.73,
+          "volume": 1604000000.0,
+          "turnover": 202739000000.0
+        },
+        {
+          "date": "2026-07-15",
+          "date_ms": 1784044800000,
+          "open_price": 2021.58,
+          "high_price": 2028.65,
+          "low_price": 1908.18,
+          "close_price": 1924.27,
+          "volume": 1429000000.0,
+          "turnover": 169721000000.0
+        },
+        {
+          "date": "2026-07-16",
+          "date_ms": 1784131200000,
+          "open_price": 1869.94,
+          "high_price": 1947.25,
+          "low_price": 1828.57,
+          "close_price": 1846.88,
+          "volume": 1423000000.0,
+          "turnover": 174885000000.0
+        },
+        {
+          "date": "2026-07-17",
+          "date_ms": 1784217600000,
+          "open_price": 1829.98,
+          "high_price": 1844.38,
+          "low_price": 1698.32,
+          "close_price": 1715.4,
+          "volume": 1664000000.0,
+          "turnover": 191563000000.0
+        },
+        {
+          "date": "2026-07-20",
+          "date_ms": 1784476800000,
+          "open_price": 1764.59,
+          "high_price": 1776.07,
+          "low_price": 1646.39,
+          "close_price": 1718.69,
+          "volume": 1798999999.9999998,
+          "turnover": 183894000000.0
+        },
+        {
+          "date": "2026-07-21",
+          "date_ms": 1784563200000,
+          "open_price": 1747.49,
+          "high_price": 1904.86,
+          "low_price": 1663.85,
+          "close_price": 1903.16,
+          "volume": 1952000000.0,
+          "turnover": 213179000000.0
+        },
+        {
+          "date": "2026-07-22",
+          "date_ms": 1784649600000,
+          "open_price": 1874.78,
+          "high_price": 1934.61,
+          "low_price": 1836.11,
+          "close_price": 1860.08,
+          "volume": 1623999999.9999998,
+          "turnover": 192971000000.0
+        },
+        {
+          "date": "2026-07-23",
+          "date_ms": 1784736000000,
+          "open_price": 1876.61,
+          "high_price": 1876.99,
+          "low_price": 1770.53,
+          "close_price": 1789.69,
+          "volume": 1193000000.0,
+          "turnover": 139269000000.0
+        },
+        {
+          "date": "2026-07-24",
+          "date_ms": 1784822400000,
+          "open_price": 1766.26,
+          "high_price": 1831.28,
+          "low_price": 1748.8,
+          "close_price": 1787.2,
+          "volume": 1019000000.0,
+          "turnover": 120829000000.0
+        },
+        {
+          "date": "2026-07-27",
+          "date_ms": 1785081600000,
+          "open_price": 1780.72,
+          "high_price": 1816.43,
+          "low_price": 1724.47,
+          "close_price": 1807.95,
+          "volume": 1035000000.0,
+          "turnover": 123133999999.99998
+        },
+        {
+          "date": "2026-07-28",
+          "date_ms": 1785168000000,
+          "open_price": 1755.87,
+          "high_price": 1797.58,
+          "low_price": 1675.99,
+          "close_price": 1693.48,
+          "volume": 1089000000.0,
+          "turnover": 134111999999.99998
+        },
+        {
+          "date": "2026-07-29",
+          "date_ms": 1785254400000,
+          "open_price": 1704.58,
+          "high_price": 1711.58,
+          "low_price": 1608.14,
+          "close_price": 1678.74,
+          "volume": 1422000000.0,
+          "turnover": 147233000000.0
+        },
+        {
+          "date": "2026-07-30",
+          "date_ms": 1785340800000,
+          "open_price": 1653.47,
+          "high_price": 1671.51,
+          "low_price": 1562.0,
+          "close_price": 1588.41,
+          "volume": 1470000000.0,
+          "turnover": 151882000000.0
+        },
+        {
+          "date": "2026-07-31",
+          "date_ms": 1785427200000,
+          "open_price": 1721.36,
+          "high_price": 1731.21,
+          "low_price": 1635.68,
+          "close_price": 1635.96,
+          "volume": 1452000000.0,
+          "turnover": 163043000000.0
+        },
+        {
+          "date": "2026-08-03",
+          "date_ms": 1785686400000,
+          "open_price": 1619.29,
+          "high_price": 1621.99,
+          "low_price": 1549.74,
+          "close_price": 1552.89,
+          "volume": 1234000000.0,
+          "turnover": 124580000000.0
+        },
+        {
+          "date": "2026-08-04",
+          "date_ms": 1785772800000,
+          "open_price": 1569.62,
+          "high_price": 1631.01,
+          "low_price": 1556.11,
+          "close_price": 1616.36,
+          "volume": 1135000000.0,
+          "turnover": 126547000000.0
+        },
+        {
+          "date": "2026-08-05",
+          "date_ms": 1785859200000,
+          "open_price": 1615.26,
+          "high_price": 1715.28,
+          "low_price": 1615.26,
+          "close_price": 1693.67,
+          "volume": 1296000000.0,
+          "turnover": 154354000000.0
+        },
+        {
+          "date": "2026-08-06",
+          "date_ms": 1785945600000,
+          "open_price": 1651.11,
+          "high_price": 1727.74,
+          "low_price": 1651.11,
+          "close_price": 1701.29,
+          "volume": 1203000000.0,
+          "turnover": 123939000000.00002
+        },
+        {
+          "date": "2026-08-07",
+          "date_ms": 1786032000000,
+          "open_price": 1697.37,
+          "high_price": 1747.74,
+          "low_price": 1686.66,
+          "close_price": 1744.02,
+          "volume": 1215000000.0,
+          "turnover": 136489000000.00002
+        },
+        {
+          "date": "2026-08-10",
+          "date_ms": 1786291200000,
+          "open_price": 1740.14,
+          "high_price": 1752.93,
+          "low_price": 1704.08,
+          "close_price": 1737.77,
+          "volume": 1083000000.0,
+          "turnover": 128736999999.99998
+        },
+        {
+          "date": "2026-08-11",
+          "date_ms": 1786377600000,
+          "open_price": 1713.26,
+          "high_price": 1753.14,
+          "low_price": 1699.92,
+          "close_price": 1709.5,
+          "volume": 1184000000.0,
+          "turnover": 110581000000.0
+        },
+        {
+          "date": "2026-08-12",
+          "date_ms": 1786464000000,
+          "open_price": 1720.36,
+          "high_price": 1747.95,
+          "low_price": 1709.16,
+          "close_price": 1736.99,
+          "volume": 975000000.0,
+          "turnover": 103533000000.0
+        },
+        {
+          "date": "2026-08-13",
+          "date_ms": 1786550400000,
+          "open_price": 1763.46,
+          "high_price": 1782.78,
+          "low_price": 1715.34,
+          "close_price": 1717.75,
+          "volume": 1059000000.0,
+          "turnover": 125934999999.99998
+        },
+        {
+          "date": "2026-08-14",
+          "date_ms": 1786636800000,
+          "open_price": 1738.82,
+          "high_price": 1741.35,
+          "low_price": 1690.68,
+          "close_price": 1717.68,
+          "volume": 869000000.0,
+          "turnover": 98993000000.0
+        },
+        {
+          "date": "2026-08-17",
+          "date_ms": 1786896000000,
+          "open_price": 1721.55,
+          "high_price": 1788.85,
+          "low_price": 1718.61,
+          "close_price": 1788.85,
+          "volume": 1085000000.0,
+          "turnover": 127269000000.0
+        },
+        {
+          "date": "2026-08-18",
+          "date_ms": 1786982400000,
+          "open_price": 1786.37,
+          "high_price": 1798.78,
+          "low_price": 1753.97,
+          "close_price": 1790.87,
+          "volume": 1119000000.0,
+          "turnover": 122583000000.0
+        },
+        {
+          "date": "2026-08-19",
+          "date_ms": 1787068800000,
+          "open_price": 1738.91,
+          "high_price": 1748.52,
+          "low_price": 1653.67,
+          "close_price": 1667.52,
+          "volume": 1223000000.0,
+          "turnover": 132534999999.99998
+        },
+        {
+          "date": "2026-08-20",
+          "date_ms": 1787155200000,
+          "open_price": 1685.48,
+          "high_price": 1694.36,
+          "low_price": 1638.3,
+          "close_price": 1652.97,
+          "volume": 915000000.0,
+          "turnover": 99823000000.0
+        },
+        {
+          "date": "2026-08-21",
+          "date_ms": 1787241600000,
+          "open_price": 1649.28,
+          "high_price": 1675.82,
+          "low_price": 1640.62,
+          "close_price": 1653.56,
+          "volume": 698000000.0,
+          "turnover": 77612000000.0
+        },
+        {
+          "date": "2026-08-24",
+          "date_ms": 1787500800000,
+          "open_price": 1651.88,
+          "high_price": 1651.96,
+          "low_price": 1575.28,
+          "close_price": 1602.34,
+          "volume": 860000000.0,
+          "turnover": 93867000000.0
+        },
+        {
+          "date": "2026-08-25",
+          "date_ms": 1787587200000,
+          "open_price": 1584.52,
+          "high_price": 1622.21,
+          "low_price": 1564.77,
+          "close_price": 1604.59,
+          "volume": 717000000.0,
+          "turnover": 75333000000.0
+        },
+        {
+          "date": "2026-08-26",
+          "date_ms": 1787673600000,
+          "open_price": 1605.74,
+          "high_price": 1644.72,
+          "low_price": 1598.44,
+          "close_price": 1632.02,
+          "volume": 743000000.0,
+          "turnover": 79397000000.0
+        },
+        {
+          "date": "2026-08-27",
+          "date_ms": 1787760000000,
+          "open_price": 1646.84,
+          "high_price": 1697.03,
+          "low_price": 1637.33,
+          "close_price": 1693.48,
+          "volume": 1011000000.0,
+          "turnover": 101832000000.0
+        },
+        {
+          "date": "2026-08-28",
+          "date_ms": 1787846400000,
+          "open_price": 1684.72,
+          "high_price": 1711.99,
+          "low_price": 1661.48,
+          "close_price": 1662.15,
+          "volume": 802999999.9999999,
+          "turnover": 85522000000.0
+        },
+        {
+          "date": "2026-08-31",
+          "date_ms": 1788105600000,
+          "open_price": 1623.2,
+          "high_price": 1684.39,
+          "low_price": 1620.36,
+          "close_price": 1684.39,
+          "volume": 969999999.9999999,
+          "turnover": 90814000000.0
+        }
+      ],
+      "raw_sources": [
+        {
+          "file": "000688.SH-202606-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_KCB50_INDEX_C&isPagination=false&MDATE=202606",
+          "sha256": "579a2bcecfe17908a78cfda2e28e6ecc2c1e3f693de78eef4acaf71f82d557d4",
+          "count": 21
+        },
+        {
+          "file": "000688.SH-202607-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_KCB50_INDEX_C&isPagination=false&MDATE=202607",
+          "sha256": "7fa9d0354b7ebb25916819e6bbff6d2002555ab0838c6fb57f7218768f70f201",
+          "count": 23
+        },
+        {
+          "file": "000688.SH-202608-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQZS_M_KCB50_INDEX_C&isPagination=false&MDATE=202608",
+          "sha256": "3a85e8ab922677a110c50e60c175ba9c9571ed46e80f7fb1b131b46c2b4e2789",
+          "count": 21
+        }
+      ]
+    }
+  ]
+}

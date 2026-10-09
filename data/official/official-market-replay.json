@@ -1,0 +1,1232 @@
+{
+  "source_name": "上海证券交易所·上证统计月报·证券交易",
+  "source_url": "https://www.sse.com.cn/aboutus/publication/monthly/report/",
+  "definitions_url": "https://www.sse.com.cn/aboutus/publication/monthly/explain/",
+  "retrieved_at": "2026-10-09T06:19:09.170276+00:00",
+  "mode": "historical_replay",
+  "note": "公开官方历史数据。TRD_VOL原单位亿股、TRD_VAL原单位亿元、TRD_TRN原单位万笔。仅沪市分板口径，非全A。平均市盈率采用上交所公开口径，不能等同指数PE或TTM，也不能取两个板块PE算术平均。",
+  "markets": [
+    {
+      "id": "main",
+      "name": "沪市主板",
+      "bars": [
+        {
+          "date": "2026-06-01",
+          "listed_count": 1746,
+          "volume": 61665000000.0,
+          "turnover": 896535000000.0,
+          "transactions": 61881800.0,
+          "average_pe": 14.27,
+          "turnover_ratio_pct": 1.65
+        },
+        {
+          "date": "2026-06-02",
+          "listed_count": 1746,
+          "volume": 58871000000.0,
+          "turnover": 904835000000.0,
+          "transactions": 60363500.0,
+          "average_pe": 14.32,
+          "turnover_ratio_pct": 1.66
+        },
+        {
+          "date": "2026-06-03",
+          "listed_count": 1746,
+          "volume": 61100000000.0,
+          "turnover": 977749000000.0,
+          "transactions": 61040800.0,
+          "average_pe": 14.31,
+          "turnover_ratio_pct": 1.8
+        },
+        {
+          "date": "2026-06-04",
+          "listed_count": 1746,
+          "volume": 56922000000.0,
+          "turnover": 891075000000.0,
+          "transactions": 58192900.0,
+          "average_pe": 14.16,
+          "turnover_ratio_pct": 1.66
+        },
+        {
+          "date": "2026-06-05",
+          "listed_count": 1746,
+          "volume": 60241999999.99999,
+          "turnover": 947749000000.0,
+          "transactions": 62250200.00000001,
+          "average_pe": 14.11,
+          "turnover_ratio_pct": 1.77
+        },
+        {
+          "date": "2026-06-08",
+          "listed_count": 1746,
+          "volume": 59974000000.0,
+          "turnover": 884578000000.0001,
+          "transactions": 62571000.0,
+          "average_pe": 13.94,
+          "turnover_ratio_pct": 1.67
+        },
+        {
+          "date": "2026-06-09",
+          "listed_count": 1746,
+          "volume": 52061000000.0,
+          "turnover": 801908000000.0,
+          "transactions": 55234200.0,
+          "average_pe": 14.03,
+          "turnover_ratio_pct": 1.51
+        },
+        {
+          "date": "2026-06-10",
+          "listed_count": 1746,
+          "volume": 54128000000.0,
+          "turnover": 829536000000.0,
+          "transactions": 57334399.99999999,
+          "average_pe": 13.98,
+          "turnover_ratio_pct": 1.56
+        },
+        {
+          "date": "2026-06-11",
+          "listed_count": 1746,
+          "volume": 51190000000.0,
+          "turnover": 800134000000.0,
+          "transactions": 54835300.0,
+          "average_pe": 13.93,
+          "turnover_ratio_pct": 1.52
+        },
+        {
+          "date": "2026-06-12",
+          "listed_count": 1746,
+          "volume": 67166000000.0,
+          "turnover": 1024756000000.0,
+          "transactions": 66431000.0,
+          "average_pe": 14.13,
+          "turnover_ratio_pct": 1.91
+        },
+        {
+          "date": "2026-06-15",
+          "listed_count": 1746,
+          "volume": 61875000000.0,
+          "turnover": 964159000000.0,
+          "transactions": 63080200.00000001,
+          "average_pe": 14.25,
+          "turnover_ratio_pct": 1.79
+        },
+        {
+          "date": "2026-06-16",
+          "listed_count": 1746,
+          "volume": 55488000000.0,
+          "turnover": 926534000000.0,
+          "transactions": 61246600.0,
+          "average_pe": 14.17,
+          "turnover_ratio_pct": 1.72
+        },
+        {
+          "date": "2026-06-17",
+          "listed_count": 1746,
+          "volume": 54455999999.99999,
+          "turnover": 927379000000.0001,
+          "transactions": 59640300.0,
+          "average_pe": 14.13,
+          "turnover_ratio_pct": 1.73
+        },
+        {
+          "date": "2026-06-18",
+          "listed_count": 1746,
+          "volume": 59186000000.0,
+          "turnover": 1032559000000.0,
+          "transactions": 63765900.0,
+          "average_pe": 13.94,
+          "turnover_ratio_pct": 1.95
+        },
+        {
+          "date": "2026-06-22",
+          "listed_count": 1746,
+          "volume": 67004000000.0,
+          "turnover": 1147194000000.0,
+          "transactions": 71294300.0,
+          "average_pe": 14.24,
+          "turnover_ratio_pct": 2.12
+        },
+        {
+          "date": "2026-06-23",
+          "listed_count": 1746,
+          "volume": 64424000000.0,
+          "turnover": 1112948000000.0,
+          "transactions": 69671300.0,
+          "average_pe": 14.05,
+          "turnover_ratio_pct": 2.09
+        },
+        {
+          "date": "2026-06-24",
+          "listed_count": 1746,
+          "volume": 57952000000.0,
+          "turnover": 1006708000000.0,
+          "transactions": 63970500.0,
+          "average_pe": 13.97,
+          "turnover_ratio_pct": 1.9
+        },
+        {
+          "date": "2026-06-25",
+          "listed_count": 1746,
+          "volume": 60465000000.0,
+          "turnover": 1063109000000.0,
+          "transactions": 65558700.0,
+          "average_pe": 13.92,
+          "turnover_ratio_pct": 2.01
+        },
+        {
+          "date": "2026-06-26",
+          "listed_count": 1744,
+          "volume": 59084000000.0,
+          "turnover": 1082325000000.0,
+          "transactions": 67122100.0,
+          "average_pe": 13.6,
+          "turnover_ratio_pct": 2.1
+        },
+        {
+          "date": "2026-06-29",
+          "listed_count": 1742,
+          "volume": 58346000000.0,
+          "turnover": 1060854999999.9999,
+          "transactions": 67569500.0,
+          "average_pe": 13.7,
+          "turnover_ratio_pct": 2.04
+        },
+        {
+          "date": "2026-06-30",
+          "listed_count": 1742,
+          "volume": 52712000000.0,
+          "turnover": 942035000000.0,
+          "transactions": 61177100.0,
+          "average_pe": 13.62,
+          "turnover_ratio_pct": 1.82
+        },
+        {
+          "date": "2026-07-01",
+          "listed_count": 1742,
+          "volume": 59332000000.00001,
+          "turnover": 1068343000000.0,
+          "transactions": 66855300.0,
+          "average_pe": 13.74,
+          "turnover_ratio_pct": 2.05
+        },
+        {
+          "date": "2026-07-02",
+          "listed_count": 1742,
+          "volume": 58204999999.99999,
+          "turnover": 995039000000.0,
+          "transactions": 65272700.00000001,
+          "average_pe": 13.6,
+          "turnover_ratio_pct": 1.93
+        },
+        {
+          "date": "2026-07-03",
+          "listed_count": 1740,
+          "volume": 53415000000.0,
+          "turnover": 953082000000.0,
+          "transactions": 61004399.99999999,
+          "average_pe": 13.69,
+          "turnover_ratio_pct": 1.84
+        },
+        {
+          "date": "2026-07-06",
+          "listed_count": 1739,
+          "volume": 52257000000.00001,
+          "turnover": 923577000000.0,
+          "transactions": 60435000.0,
+          "average_pe": 13.72,
+          "turnover_ratio_pct": 1.78
+        },
+        {
+          "date": "2026-07-07",
+          "listed_count": 1739,
+          "volume": 45885000000.0,
+          "turnover": 765716000000.0,
+          "transactions": 54602800.0,
+          "average_pe": 13.52,
+          "turnover_ratio_pct": 1.5
+        },
+        {
+          "date": "2026-07-08",
+          "listed_count": 1739,
+          "volume": 43814000000.0,
+          "turnover": 741202000000.0,
+          "transactions": 52780500.0,
+          "average_pe": 13.47,
+          "turnover_ratio_pct": 1.46
+        },
+        {
+          "date": "2026-07-09",
+          "listed_count": 1739,
+          "volume": 48815000000.0,
+          "turnover": 828062999999.9999,
+          "transactions": 57578400.0,
+          "average_pe": 13.52,
+          "turnover_ratio_pct": 1.62
+        },
+        {
+          "date": "2026-07-10",
+          "listed_count": 1739,
+          "volume": 54860000000.0,
+          "turnover": 960509000000.0,
+          "transactions": 62857500.0,
+          "average_pe": 13.5,
+          "turnover_ratio_pct": 1.88
+        },
+        {
+          "date": "2026-07-13",
+          "listed_count": 1739,
+          "volume": 52359000000.0,
+          "turnover": 820926000000.0,
+          "transactions": 61023900.0,
+          "average_pe": 13.35,
+          "turnover_ratio_pct": 1.63
+        },
+        {
+          "date": "2026-07-14",
+          "listed_count": 1739,
+          "volume": 51982000000.00001,
+          "turnover": 802421000000.0,
+          "transactions": 58684600.0,
+          "average_pe": 13.55,
+          "turnover_ratio_pct": 1.57
+        },
+        {
+          "date": "2026-07-15",
+          "listed_count": 1739,
+          "volume": 51913000000.0,
+          "turnover": 800605000000.0,
+          "transactions": 57584500.0,
+          "average_pe": 13.62,
+          "turnover_ratio_pct": 1.56
+        },
+        {
+          "date": "2026-07-16",
+          "listed_count": 1739,
+          "volume": 47933000000.0,
+          "turnover": 715256000000.0,
+          "transactions": 55863300.0,
+          "average_pe": 13.43,
+          "turnover_ratio_pct": 1.41
+        },
+        {
+          "date": "2026-07-17",
+          "listed_count": 1739,
+          "volume": 58491000000.0,
+          "turnover": 792499000000.0,
+          "transactions": 64130200.00000001,
+          "average_pe": 13.2,
+          "turnover_ratio_pct": 1.59
+        },
+        {
+          "date": "2026-07-20",
+          "listed_count": 1739,
+          "volume": 63903000000.0,
+          "turnover": 850192000000.0,
+          "transactions": 68436400.0,
+          "average_pe": 13.43,
+          "turnover_ratio_pct": 1.68
+        },
+        {
+          "date": "2026-07-21",
+          "listed_count": 1739,
+          "volume": 66128000000.0,
+          "turnover": 910145999999.9999,
+          "transactions": 74051000.0,
+          "average_pe": 13.47,
+          "turnover_ratio_pct": 1.8
+        },
+        {
+          "date": "2026-07-22",
+          "listed_count": 1739,
+          "volume": 55422000000.0,
+          "turnover": 818697000000.0,
+          "transactions": 63530400.0,
+          "average_pe": 13.56,
+          "turnover_ratio_pct": 1.61
+        },
+        {
+          "date": "2026-07-23",
+          "listed_count": 1739,
+          "volume": 51615000000.0,
+          "turnover": 709489000000.0,
+          "transactions": 56779300.0,
+          "average_pe": 13.67,
+          "turnover_ratio_pct": 1.38
+        },
+        {
+          "date": "2026-07-24",
+          "listed_count": 1739,
+          "volume": 46548000000.0,
+          "turnover": 626886000000.0,
+          "transactions": 52676000.0,
+          "average_pe": 13.45,
+          "turnover_ratio_pct": 1.24
+        },
+        {
+          "date": "2026-07-27",
+          "listed_count": 1739,
+          "volume": 43253000000.0,
+          "turnover": 591189000000.0,
+          "transactions": 50484600.0,
+          "average_pe": 13.55,
+          "turnover_ratio_pct": 1.16
+        },
+        {
+          "date": "2026-07-28",
+          "listed_count": 1739,
+          "volume": 44162000000.0,
+          "turnover": 592543000000.0,
+          "transactions": 51659100.0,
+          "average_pe": 13.53,
+          "turnover_ratio_pct": 1.16
+        },
+        {
+          "date": "2026-07-29",
+          "listed_count": 1739,
+          "volume": 50906000000.0,
+          "turnover": 698034000000.0,
+          "transactions": 58569500.0,
+          "average_pe": 13.6,
+          "turnover_ratio_pct": 1.36
+        },
+        {
+          "date": "2026-07-30",
+          "listed_count": 1739,
+          "volume": 53117999999.99999,
+          "turnover": 718858000000.0,
+          "transactions": 58627500.0,
+          "average_pe": 13.67,
+          "turnover_ratio_pct": 1.4
+        },
+        {
+          "date": "2026-07-31",
+          "listed_count": 1739,
+          "volume": 53339000000.0,
+          "turnover": 756854000000.0,
+          "transactions": 60232200.0,
+          "average_pe": 13.68,
+          "turnover_ratio_pct": 1.47
+        },
+        {
+          "date": "2026-08-03",
+          "listed_count": 1739,
+          "volume": 47137000000.0,
+          "turnover": 625615000000.0,
+          "transactions": 53584700.0,
+          "average_pe": 13.67,
+          "turnover_ratio_pct": 1.21
+        },
+        {
+          "date": "2026-08-04",
+          "listed_count": 1739,
+          "volume": 48706000000.0,
+          "turnover": 668318000000.0,
+          "transactions": 54534500.0,
+          "average_pe": 13.59,
+          "turnover_ratio_pct": 1.3
+        },
+        {
+          "date": "2026-08-05",
+          "listed_count": 1739,
+          "volume": 53292999999.99999,
+          "turnover": 799038000000.0,
+          "transactions": 59248400.0,
+          "average_pe": 13.69,
+          "turnover_ratio_pct": 1.55
+        },
+        {
+          "date": "2026-08-06",
+          "listed_count": 1740,
+          "volume": 53053000000.0,
+          "turnover": 793549000000.0,
+          "transactions": 61599300.0,
+          "average_pe": 13.74,
+          "turnover_ratio_pct": 1.53
+        },
+        {
+          "date": "2026-08-07",
+          "listed_count": 1740,
+          "volume": 50218000000.0,
+          "turnover": 795549000000.0,
+          "transactions": 60741500.0,
+          "average_pe": 13.82,
+          "turnover_ratio_pct": 1.52
+        },
+        {
+          "date": "2026-08-10",
+          "listed_count": 1740,
+          "volume": 48463000000.0,
+          "turnover": 781052000000.0,
+          "transactions": 59477500.0,
+          "average_pe": 13.93,
+          "turnover_ratio_pct": 1.48
+        },
+        {
+          "date": "2026-08-11",
+          "listed_count": 1740,
+          "volume": 47776000000.0,
+          "turnover": 733563000000.0,
+          "transactions": 56664500.0,
+          "average_pe": 13.83,
+          "turnover_ratio_pct": 1.4
+        },
+        {
+          "date": "2026-08-12",
+          "listed_count": 1740,
+          "volume": 45501000000.0,
+          "turnover": 659783000000.0,
+          "transactions": 51661800.0,
+          "average_pe": 13.82,
+          "turnover_ratio_pct": 1.26
+        },
+        {
+          "date": "2026-08-13",
+          "listed_count": 1740,
+          "volume": 51742999999.99999,
+          "turnover": 776105000000.0,
+          "transactions": 58736899.99999999,
+          "average_pe": 13.77,
+          "turnover_ratio_pct": 1.49
+        },
+        {
+          "date": "2026-08-14",
+          "listed_count": 1740,
+          "volume": 45177000000.0,
+          "turnover": 673791000000.0,
+          "transactions": 52647500.0,
+          "average_pe": 13.75,
+          "turnover_ratio_pct": 1.3
+        },
+        {
+          "date": "2026-08-17",
+          "listed_count": 1740,
+          "volume": 43331000000.0,
+          "turnover": 711061000000.0,
+          "transactions": 52134300.0,
+          "average_pe": 13.87,
+          "turnover_ratio_pct": 1.36
+        },
+        {
+          "date": "2026-08-18",
+          "listed_count": 1740,
+          "volume": 45655000000.0,
+          "turnover": 731589000000.0,
+          "transactions": 55700800.0,
+          "average_pe": 13.89,
+          "turnover_ratio_pct": 1.39
+        },
+        {
+          "date": "2026-08-19",
+          "listed_count": 1740,
+          "volume": 51172000000.0,
+          "turnover": 775425000000.0,
+          "transactions": 61218700.0,
+          "average_pe": 13.74,
+          "turnover_ratio_pct": 1.5
+        },
+        {
+          "date": "2026-08-20",
+          "listed_count": 1740,
+          "volume": 45527000000.0,
+          "turnover": 668292000000.0,
+          "transactions": 53367600.0,
+          "average_pe": 13.75,
+          "turnover_ratio_pct": 1.29
+        },
+        {
+          "date": "2026-08-21",
+          "listed_count": 1740,
+          "volume": 40274000000.0,
+          "turnover": 591834000000.0,
+          "transactions": 49022900.0,
+          "average_pe": 13.76,
+          "turnover_ratio_pct": 1.14
+        },
+        {
+          "date": "2026-08-24",
+          "listed_count": 1740,
+          "volume": 44026000000.0,
+          "turnover": 645560000000.0,
+          "transactions": 53491400.0,
+          "average_pe": 13.76,
+          "turnover_ratio_pct": 1.24
+        },
+        {
+          "date": "2026-08-25",
+          "listed_count": 1740,
+          "volume": 42683000000.0,
+          "turnover": 597672000000.0,
+          "transactions": 50692299.99999999,
+          "average_pe": 13.79,
+          "turnover_ratio_pct": 1.15
+        },
+        {
+          "date": "2026-08-26",
+          "listed_count": 1740,
+          "volume": 45223000000.0,
+          "turnover": 603671000000.0,
+          "transactions": 50201100.0,
+          "average_pe": 13.87,
+          "turnover_ratio_pct": 1.15
+        },
+        {
+          "date": "2026-08-27",
+          "listed_count": 1740,
+          "volume": 46871000000.0,
+          "turnover": 685155000000.0,
+          "transactions": 53871700.0,
+          "average_pe": 13.95,
+          "turnover_ratio_pct": 1.3
+        },
+        {
+          "date": "2026-08-28",
+          "listed_count": 1740,
+          "volume": 46567000000.0,
+          "turnover": 673437000000.0,
+          "transactions": 53971300.0,
+          "average_pe": 13.97,
+          "turnover_ratio_pct": 1.28
+        },
+        {
+          "date": "2026-08-31",
+          "listed_count": 1740,
+          "volume": 52840000000.0,
+          "turnover": 702711000000.0,
+          "transactions": 57002500.0,
+          "average_pe": 14.08,
+          "turnover_ratio_pct": 1.32
+        }
+      ],
+      "raw_sources": [
+        {
+          "file": "sse-main-market-202606-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQJY_D_MAIN_TRADE_C&isPagination=false&MDATE=202606",
+          "sha256": "2966784beef00532131e469c1dd44f56a9211e509444c6ed6cfc9ba4afdc2f5d",
+          "count": 21
+        },
+        {
+          "file": "sse-main-market-202607-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQJY_D_MAIN_TRADE_C&isPagination=false&MDATE=202607",
+          "sha256": "84f780df1d8b2d629903ff9099d3dab3c422be6e1df2394be760653b390208ed",
+          "count": 23
+        },
+        {
+          "file": "sse-main-market-202608-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQJY_D_MAIN_TRADE_C&isPagination=false&MDATE=202608",
+          "sha256": "f71db0fde4bbf4c2a98548d46a757c9283c2108287aec94e042672eb849d264c",
+          "count": 21
+        }
+      ]
+    },
+    {
+      "id": "star",
+      "name": "科创板",
+      "bars": [
+        {
+          "date": "2026-06-01",
+          "listed_count": 610,
+          "volume": 5969000000.0,
+          "turnover": 423710000000.00006,
+          "transactions": 12036800.0,
+          "average_pe": 91.38,
+          "turnover_ratio_pct": 3.18
+        },
+        {
+          "date": "2026-06-02",
+          "listed_count": 610,
+          "volume": 5371000000.0,
+          "turnover": 376398000000.0,
+          "transactions": 10756400.000000002,
+          "average_pe": 92.96,
+          "turnover_ratio_pct": 2.78
+        },
+        {
+          "date": "2026-06-03",
+          "listed_count": 610,
+          "volume": 5870000000.0,
+          "turnover": 454168000000.0,
+          "transactions": 11226700.0,
+          "average_pe": 94.96,
+          "turnover_ratio_pct": 3.28
+        },
+        {
+          "date": "2026-06-04",
+          "listed_count": 610,
+          "volume": 5383000000.0,
+          "turnover": 386867000000.0,
+          "transactions": 10375100.0,
+          "average_pe": 95.87,
+          "turnover_ratio_pct": 2.77
+        },
+        {
+          "date": "2026-06-05",
+          "listed_count": 610,
+          "volume": 6082000000.0,
+          "turnover": 416730000000.0,
+          "transactions": 11545300.0,
+          "average_pe": 93.46,
+          "turnover_ratio_pct": 3.06
+        },
+        {
+          "date": "2026-06-08",
+          "listed_count": 610,
+          "volume": 5983000000.0,
+          "turnover": 383259000000.0,
+          "transactions": 11569000.0,
+          "average_pe": 90.45,
+          "turnover_ratio_pct": 2.92
+        },
+        {
+          "date": "2026-06-09",
+          "listed_count": 610,
+          "volume": 5663000000.0,
+          "turnover": 372755000000.0,
+          "transactions": 10866300.000000002,
+          "average_pe": 93.61,
+          "turnover_ratio_pct": 2.73
+        },
+        {
+          "date": "2026-06-10",
+          "listed_count": 609,
+          "volume": 5856000000.0,
+          "turnover": 398830000000.0,
+          "transactions": 11253200.0,
+          "average_pe": 92.7,
+          "turnover_ratio_pct": 2.94
+        },
+        {
+          "date": "2026-06-11",
+          "listed_count": 609,
+          "volume": 5742000000.0,
+          "turnover": 386548000000.0,
+          "transactions": 11032100.0,
+          "average_pe": 93.7,
+          "turnover_ratio_pct": 2.82
+        },
+        {
+          "date": "2026-06-12",
+          "listed_count": 609,
+          "volume": 7242000000.0,
+          "turnover": 515202000000.00006,
+          "transactions": 13780900.0,
+          "average_pe": 93.19,
+          "turnover_ratio_pct": 3.79
+        },
+        {
+          "date": "2026-06-15",
+          "listed_count": 609,
+          "volume": 6163000000.0,
+          "turnover": 440913000000.0,
+          "transactions": 11948100.0,
+          "average_pe": 97.92,
+          "turnover_ratio_pct": 3.09
+        },
+        {
+          "date": "2026-06-16",
+          "listed_count": 609,
+          "volume": 6219000000.0,
+          "turnover": 444372000000.0,
+          "transactions": 11919700.0,
+          "average_pe": 98.95,
+          "turnover_ratio_pct": 3.08
+        },
+        {
+          "date": "2026-06-17",
+          "listed_count": 609,
+          "volume": 6392000000.0,
+          "turnover": 476568999999.99994,
+          "transactions": 11924700.0,
+          "average_pe": 102.59,
+          "turnover_ratio_pct": 3.19
+        },
+        {
+          "date": "2026-06-18",
+          "listed_count": 609,
+          "volume": 6656999999.999999,
+          "turnover": 528745000000.0,
+          "transactions": 12496700.0,
+          "average_pe": 106.09,
+          "turnover_ratio_pct": 3.43
+        },
+        {
+          "date": "2026-06-22",
+          "listed_count": 609,
+          "volume": 7393000000.000001,
+          "turnover": 557631000000.0,
+          "transactions": 13897600.0,
+          "average_pe": 107.1,
+          "turnover_ratio_pct": 3.59
+        },
+        {
+          "date": "2026-06-23",
+          "listed_count": 609,
+          "volume": 6511000000.0,
+          "turnover": 482949000000.0,
+          "transactions": 12383800.000000002,
+          "average_pe": 105.23,
+          "turnover_ratio_pct": 3.15
+        },
+        {
+          "date": "2026-06-24",
+          "listed_count": 610,
+          "volume": 6528000000.0,
+          "turnover": 509314000000.00006,
+          "transactions": 12481700.0,
+          "average_pe": 109.84,
+          "turnover_ratio_pct": 3.19
+        },
+        {
+          "date": "2026-06-25",
+          "listed_count": 610,
+          "volume": 6784999999.999999,
+          "turnover": 558070000000.0,
+          "transactions": 12747400.0,
+          "average_pe": 112.0,
+          "turnover_ratio_pct": 3.44
+        },
+        {
+          "date": "2026-06-26",
+          "listed_count": 610,
+          "volume": 6966000000.0,
+          "turnover": 539785000000.00006,
+          "transactions": 13076199.999999998,
+          "average_pe": 109.22,
+          "turnover_ratio_pct": 3.4
+        },
+        {
+          "date": "2026-06-29",
+          "listed_count": 610,
+          "volume": 7714000000.0,
+          "turnover": 606842000000.0,
+          "transactions": 14730700.0,
+          "average_pe": 112.34,
+          "turnover_ratio_pct": 3.7
+        },
+        {
+          "date": "2026-06-30",
+          "listed_count": 610,
+          "volume": 7250000000.0,
+          "turnover": 589944000000.0,
+          "transactions": 13703300.0,
+          "average_pe": 117.2,
+          "turnover_ratio_pct": 3.46
+        },
+        {
+          "date": "2026-07-01",
+          "listed_count": 610,
+          "volume": 7936000000.0,
+          "turnover": 630751000000.0,
+          "transactions": 14715400.0,
+          "average_pe": 115.61,
+          "turnover_ratio_pct": 3.74
+        },
+        {
+          "date": "2026-07-02",
+          "listed_count": 610,
+          "volume": 7468000000.000001,
+          "turnover": 582605000000.0,
+          "transactions": 14413100.0,
+          "average_pe": 108.96,
+          "turnover_ratio_pct": 3.66
+        },
+        {
+          "date": "2026-07-03",
+          "listed_count": 610,
+          "volume": 6875000000.0,
+          "turnover": 513692000000.0,
+          "transactions": 13128200.0,
+          "average_pe": 108.64,
+          "turnover_ratio_pct": 3.24
+        },
+        {
+          "date": "2026-07-06",
+          "listed_count": 610,
+          "volume": 6834000000.0,
+          "turnover": 509510000000.00006,
+          "transactions": 13584300.0,
+          "average_pe": 107.64,
+          "turnover_ratio_pct": 3.25
+        },
+        {
+          "date": "2026-07-07",
+          "listed_count": 610,
+          "volume": 5605000000.0,
+          "turnover": 432489000000.00006,
+          "transactions": 11876600.0,
+          "average_pe": 107.34,
+          "turnover_ratio_pct": 2.76
+        },
+        {
+          "date": "2026-07-08",
+          "listed_count": 610,
+          "volume": 5913000000.0,
+          "turnover": 454449000000.0,
+          "transactions": 12101199.999999998,
+          "average_pe": 106.56,
+          "turnover_ratio_pct": 2.92
+        },
+        {
+          "date": "2026-07-09",
+          "listed_count": 610,
+          "volume": 6581000000.0,
+          "turnover": 538447999999.99994,
+          "transactions": 13022700.0,
+          "average_pe": 113.79,
+          "turnover_ratio_pct": 3.24
+        },
+        {
+          "date": "2026-07-10",
+          "listed_count": 610,
+          "volume": 7959000000.0,
+          "turnover": 603934000000.0,
+          "transactions": 14680100.0,
+          "average_pe": 108.63,
+          "turnover_ratio_pct": 3.81
+        },
+        {
+          "date": "2026-07-13",
+          "listed_count": 610,
+          "volume": 6817000000.0,
+          "turnover": 515377000000.00006,
+          "transactions": 13817400.0,
+          "average_pe": 103.4,
+          "turnover_ratio_pct": 3.4
+        },
+        {
+          "date": "2026-07-14",
+          "listed_count": 610,
+          "volume": 6073000000.0,
+          "turnover": 470960999999.99994,
+          "transactions": 12647100.0,
+          "average_pe": 104.54,
+          "turnover_ratio_pct": 3.08
+        },
+        {
+          "date": "2026-07-15",
+          "listed_count": 610,
+          "volume": 5747000000.0,
+          "turnover": 426568999999.99994,
+          "transactions": 11868699.999999998,
+          "average_pe": 100.83,
+          "turnover_ratio_pct": 2.9
+        },
+        {
+          "date": "2026-07-16",
+          "listed_count": 610,
+          "volume": 5629000000.0,
+          "turnover": 409817000000.0,
+          "transactions": 11762600.0,
+          "average_pe": 97.0,
+          "turnover_ratio_pct": 2.88
+        },
+        {
+          "date": "2026-07-17",
+          "listed_count": 610,
+          "volume": 6650000000.0,
+          "turnover": 455382000000.0,
+          "transactions": 13749900.0,
+          "average_pe": 88.83,
+          "turnover_ratio_pct": 3.5
+        },
+        {
+          "date": "2026-07-20",
+          "listed_count": 610,
+          "volume": 7066000000.0,
+          "turnover": 445547000000.0,
+          "transactions": 14572100.0,
+          "average_pe": 86.38,
+          "turnover_ratio_pct": 3.52
+        },
+        {
+          "date": "2026-07-21",
+          "listed_count": 611,
+          "volume": 7434999999.999999,
+          "turnover": 488280000000.0,
+          "transactions": 15387500.0,
+          "average_pe": 94.41,
+          "turnover_ratio_pct": 3.54
+        },
+        {
+          "date": "2026-07-22",
+          "listed_count": 611,
+          "volume": 6062000000.0,
+          "turnover": 440472999999.99994,
+          "transactions": 13046700.0,
+          "average_pe": 92.04,
+          "turnover_ratio_pct": 3.26
+        },
+        {
+          "date": "2026-07-23",
+          "listed_count": 611,
+          "volume": 4670000000.0,
+          "turnover": 317499000000.0,
+          "transactions": 10328599.999999998,
+          "average_pe": 89.8,
+          "turnover_ratio_pct": 2.41
+        },
+        {
+          "date": "2026-07-24",
+          "listed_count": 611,
+          "volume": 4310000000.0,
+          "turnover": 289415000000.0,
+          "transactions": 9593100.0,
+          "average_pe": 89.1,
+          "turnover_ratio_pct": 2.22
+        },
+        {
+          "date": "2026-07-27",
+          "listed_count": 612,
+          "volume": 7454000000.000001,
+          "turnover": 441918999999.99994,
+          "transactions": 15215700.0,
+          "average_pe": 118.57,
+          "turnover_ratio_pct": 2.66
+        },
+        {
+          "date": "2026-07-28",
+          "listed_count": 612,
+          "volume": 5417000000.0,
+          "turnover": 358458000000.0,
+          "transactions": 11199800.0,
+          "average_pe": 111.95,
+          "turnover_ratio_pct": 2.29
+        },
+        {
+          "date": "2026-07-29",
+          "listed_count": 612,
+          "volume": 6271000000.0,
+          "turnover": 390640000000.0,
+          "transactions": 12644600.0,
+          "average_pe": 114.94,
+          "turnover_ratio_pct": 2.44
+        },
+        {
+          "date": "2026-07-30",
+          "listed_count": 612,
+          "volume": 6225000000.0,
+          "turnover": 389020000000.0,
+          "transactions": 12031800.0,
+          "average_pe": 110.05,
+          "turnover_ratio_pct": 2.55
+        },
+        {
+          "date": "2026-07-31",
+          "listed_count": 612,
+          "volume": 6556999999.999999,
+          "turnover": 432926000000.0,
+          "transactions": 12535100.0,
+          "average_pe": 113.5,
+          "turnover_ratio_pct": 2.75
+        },
+        {
+          "date": "2026-08-03",
+          "listed_count": 612,
+          "volume": 5376000000.0,
+          "turnover": 328035000000.0,
+          "transactions": 11161900.0,
+          "average_pe": 111.1,
+          "turnover_ratio_pct": 2.12
+        },
+        {
+          "date": "2026-08-04",
+          "listed_count": 612,
+          "volume": 5367000000.0,
+          "turnover": 340795000000.0,
+          "transactions": 10748300.0,
+          "average_pe": 115.04,
+          "turnover_ratio_pct": 2.13
+        },
+        {
+          "date": "2026-08-05",
+          "listed_count": 612,
+          "volume": 5972000000.0,
+          "turnover": 410697000000.0,
+          "transactions": 11646099.999999998,
+          "average_pe": 118.74,
+          "turnover_ratio_pct": 2.48
+        },
+        {
+          "date": "2026-08-06",
+          "listed_count": 612,
+          "volume": 5871000000.0,
+          "turnover": 375349000000.0,
+          "transactions": 11463400.0,
+          "average_pe": 118.37,
+          "turnover_ratio_pct": 2.27
+        },
+        {
+          "date": "2026-08-07",
+          "listed_count": 612,
+          "volume": 6362000000.0,
+          "turnover": 415567000000.0,
+          "transactions": 12342000.0,
+          "average_pe": 121.63,
+          "turnover_ratio_pct": 2.44
+        },
+        {
+          "date": "2026-08-10",
+          "listed_count": 612,
+          "volume": 5810000000.0,
+          "turnover": 387291000000.0,
+          "transactions": 11873599.999999998,
+          "average_pe": 120.75,
+          "turnover_ratio_pct": 2.29
+        },
+        {
+          "date": "2026-08-11",
+          "listed_count": 613,
+          "volume": 5222000000.0,
+          "turnover": 334222000000.0,
+          "transactions": 10365900.0,
+          "average_pe": 119.0,
+          "turnover_ratio_pct": 2.0
+        },
+        {
+          "date": "2026-08-12",
+          "listed_count": 613,
+          "volume": 4883000000.0,
+          "turnover": 327522000000.0,
+          "transactions": 9778900.0,
+          "average_pe": 122.3,
+          "turnover_ratio_pct": 1.91
+        },
+        {
+          "date": "2026-08-13",
+          "listed_count": 613,
+          "volume": 5637000000.0,
+          "turnover": 389983000000.0,
+          "transactions": 11101000.0,
+          "average_pe": 121.03,
+          "turnover_ratio_pct": 2.29
+        },
+        {
+          "date": "2026-08-14",
+          "listed_count": 613,
+          "volume": 4832000000.0,
+          "turnover": 317972000000.0,
+          "transactions": 9716700.0,
+          "average_pe": 123.2,
+          "turnover_ratio_pct": 1.84
+        },
+        {
+          "date": "2026-08-17",
+          "listed_count": 613,
+          "volume": 5705000000.0,
+          "turnover": 403304000000.0,
+          "transactions": 11466199.999999998,
+          "average_pe": 130.69,
+          "turnover_ratio_pct": 2.21
+        },
+        {
+          "date": "2026-08-18",
+          "listed_count": 614,
+          "volume": 5513000000.0,
+          "turnover": 404477000000.0,
+          "transactions": 11525600.0,
+          "average_pe": 129.91,
+          "turnover_ratio_pct": 2.23
+        },
+        {
+          "date": "2026-08-19",
+          "listed_count": 615,
+          "volume": 6094000000.0,
+          "turnover": 443735000000.00006,
+          "transactions": 12702300.0,
+          "average_pe": 124.61,
+          "turnover_ratio_pct": 2.56
+        },
+        {
+          "date": "2026-08-20",
+          "listed_count": 615,
+          "volume": 5213000000.0,
+          "turnover": 351691000000.0,
+          "transactions": 10781900.0,
+          "average_pe": 124.1,
+          "turnover_ratio_pct": 2.03
+        },
+        {
+          "date": "2026-08-21",
+          "listed_count": 615,
+          "volume": 4463000000.0,
+          "turnover": 292590000000.0,
+          "transactions": 9655600.0,
+          "average_pe": 124.34,
+          "turnover_ratio_pct": 1.69
+        },
+        {
+          "date": "2026-08-24",
+          "listed_count": 615,
+          "volume": 4699000000.0,
+          "turnover": 307224000000.0,
+          "transactions": 10273400.0,
+          "average_pe": 120.8,
+          "turnover_ratio_pct": 1.83
+        },
+        {
+          "date": "2026-08-25",
+          "listed_count": 616,
+          "volume": 4114000000.0,
+          "turnover": 263410000000.0,
+          "transactions": 9254500.0,
+          "average_pe": 120.75,
+          "turnover_ratio_pct": 1.56
+        },
+        {
+          "date": "2026-08-26",
+          "listed_count": 616,
+          "volume": 3892000000.0,
+          "turnover": 254626000000.00003,
+          "transactions": 8631600.0,
+          "average_pe": 120.97,
+          "turnover_ratio_pct": 1.51
+        },
+        {
+          "date": "2026-08-27",
+          "listed_count": 616,
+          "volume": 4873000000.0,
+          "turnover": 326363000000.0,
+          "transactions": 9926300.0,
+          "average_pe": 125.97,
+          "turnover_ratio_pct": 1.86
+        },
+        {
+          "date": "2026-08-28",
+          "listed_count": 616,
+          "volume": 4539000000.0,
+          "turnover": 298056000000.0,
+          "transactions": 9510900.0,
+          "average_pe": 124.62,
+          "turnover_ratio_pct": 1.72
+        },
+        {
+          "date": "2026-08-31",
+          "listed_count": 616,
+          "volume": 4874000000.0,
+          "turnover": 312756000000.0,
+          "transactions": 10259400.0,
+          "average_pe": 126.02,
+          "turnover_ratio_pct": 1.78
+        }
+      ],
+      "raw_sources": [
+        {
+          "file": "sse-star-market-202606-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQJY_D_KCB_TRADE_C&isPagination=false&MDATE=202606",
+          "sha256": "ccb4f0f7ceedc197fccd88b5a1ff543304a1fb1f32ddde573917f21ca6dda269",
+          "count": 21
+        },
+        {
+          "file": "sse-star-market-202607-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQJY_D_KCB_TRADE_C&isPagination=false&MDATE=202607",
+          "sha256": "04b3f61df45a326c73f5073e0bfbdc6b1df18a4d247af238b5a7320448ea83f4",
+          "count": 23
+        },
+        {
+          "file": "sse-star-market-202608-raw.json",
+          "url": "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSE_ZQJY_D_KCB_TRADE_C&isPagination=false&MDATE=202608",
+          "sha256": "de9e45bb981c5ed884d20be53594d39a7e4411784bb319d805414a486e19b1fe",
+          "count": 21
+        }
+      ]
+    }
+  ]
+}
