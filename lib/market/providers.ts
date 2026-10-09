@@ -24,6 +24,15 @@ export function normalizeFuyaoBar(b:Record<string,unknown>,start:number,end:numb
  const ms=b.date_ms;if(!finite(ms)||ms<start||ms>end)throw new DataError("INVALID_TIMESTAMP","指数日线时间字段缺失或超出请求范围。");
  return {date:dateOf(ms),date_ms:ms,open_price:number(b.open_price)!,high_price:number(b.high_price)!,low_price:number(b.low_price)!,close_price:number(b.close_price)!,volume:number(b.volume),turnover:number(b.turnover)};
 }
+export function validateTradingHistory(bars:Bar[],calendarDates:string[]){
+ if(!bars.length)throw new DataError("EMPTY_HISTORY","指数日线为空。");
+ const actual=new Set(bars.map(b=>b.date)),first=bars[0].date,last=bars.at(-1)!.date,expected=new Set(calendarDates);
+ if(bars.some(b=>!expected.has(b.date))||calendarDates.some(d=>d>=first&&d<=last&&!actual.has(d)))throw new DataError("INCOMPLETE_HISTORY","指数日线包含非交易日或区间内缺失交易日，不能按连续交易日计算。");
+}
+export function validateSnapshotCodes(rows:Record<string,unknown>[],total:number){
+ const codes=rows.map(row=>typeof row.thscode==="string"?row.thscode.trim().toUpperCase():"");
+ if(rows.length!==total||codes.some(code=>!/^\d{6}\.(SH|SZ|BJ)$/.test(code))||new Set(codes).size!==total)throw new DataError("INCOMPLETE_BREADTH","市场快照分页不完整或证券代码无效、重复。");
+}
 function number(value:unknown){if(value===null||value===undefined||value===""||value==="—"||value==="--")return null;const n=Number(String(value).replaceAll(",",""));return Number.isFinite(n)?n:null;}
 function monthList(end:string){const [year,month]=end.split("-").map(Number);return Array.from({length:4},(_,i)=>{const d=new Date(Date.UTC(year,month-1-i,1));return d.toISOString().slice(0,7).replace("-","");}).reverse();}
 function sseURL(sql:string,month:string){return `${SSE_BASE}?sqlId=${sql}&isPagination=false&MDATE=${month}`;}
@@ -35,12 +44,24 @@ async function pool<T,R>(items:T[],limit:number,fn:(v:T)=>Promise<R>):Promise<R[
  if(failed)throw failed.reason;return results;
 }
 async function jsonFetch(url:string,headers:Record<string,string>,timeout=12_000){
- const response=await fetch(url,{headers,signal:AbortSignal.timeout(timeout)});
- if(!response.ok)throw new DataError(`HTTP_${response.status}`,response.status===429?"接口限流，请稍后重试。":`数据接口返回HTTP ${response.status}。`);
- return await response.json() as Record<string,unknown>;
+ // These are read-only GETs. Retry one transient network/5xx failure, never
+ // retry authorization, rate-limit or provider business errors.
+ for(let attempt=0;attempt<2;attempt++){
+  try{
+   const response=await fetch(url,{headers,signal:AbortSignal.timeout(timeout)});
+   if(!response.ok){if(response.status>=500&&attempt===0){await response.body?.cancel();continue;}throw new DataError(`HTTP_${response.status}`,response.status===429?"接口限流，请稍后重试。":`数据接口返回HTTP ${response.status}。`);}
+   try{return await response.json() as Record<string,unknown>;}catch(error){if(error instanceof SyntaxError)throw new DataError("INVALID_RESPONSE","数据接口返回格式异常。");throw error;}
+  }catch(error){
+   if(error instanceof DataError)throw error;
+   if(attempt===0)continue;
+   const timeoutError=error instanceof Error&&["TimeoutError","AbortError"].includes(error.name);
+   throw new DataError(timeoutError?"DATA_TIMEOUT":"DATA_NETWORK",timeoutError?"数据接口超时，有限重试后仍未成功。请重试或切换官方历史回放。":"数据接口连接失败，有限重试后仍未成功。请重试或切换官方历史回放。");
+  }
+ }
+ throw new DataError("DATA_NETWORK","数据接口未完成。");
 }
 function traced(traces:Trace[],id:string,tool:string,purpose:string,endpoint:string,fn:()=>Promise<unknown>){
- return async()=>{const start=Date.now();try{const data=await fn();const count=Array.isArray(data)?data.length:undefined;traces.push({id,tool,purpose,endpoint,status:"success",durationMs:Date.now()-start,count,message:count===undefined?"取数成功":`返回${count}条记录`});return data;}catch(e){const message=e instanceof DataError?e.message:e instanceof Error&&e.name==="TimeoutError"?"数据接口超时。":"数据接口调用失败。";traces.push({id,tool,purpose,endpoint,status:"failed",durationMs:Date.now()-start,message});throw e;}};
+ return async()=>{const start=Date.now();try{const data=await fn();const count=Array.isArray(data)?data.length:undefined;traces.push({id,tool,purpose,endpoint,status:"success",durationMs:Date.now()-start,count,message:count===undefined?"取数成功":`返回${count}条记录`});return data;}catch(e){const message=e instanceof DataError?e.message:e instanceof Error&&e.name==="TimeoutError"?"数据接口超时。":"数据接口调用失败。";traces.push({id,tool,purpose,endpoint,status:"failed",durationMs:Date.now()-start,message});if(e instanceof DataError)throw new DataError(e.code,e.message,[...traces]);throw e;}};
 }
 export function replayBundle(request:ResearchRequest):DataBundle{
  if(request.asOf>CACHE_ASOF)throw new DataError("REPLAY_DATE_OUT_OF_RANGE",`历史缓存截至${CACHE_ASOF}，请选择样本日期或切换扶摇接口。`);
@@ -69,7 +90,7 @@ export async function officialBundle(request:ResearchRequest):Promise<DataBundle
  const validSeries=series.filter((s):s is Series=>s!==null);const selected=validSeries.find(s=>s.code===request.index);const last=selected?.bars.filter(b=>b.date<=request.asOf).at(-1);
  if(!last)throw new DataError("NO_SELECTED_INDEX","所选指数取数失败，无法生成报告。",traces);
  if(last.date!==request.asOf)warnings.push(`官方月报存在发布延迟：请求${request.asOf}，最近有效数据${last.date}。本次只研究实际有效日期。`);
- return {series:validSeries,markets:markets.filter((s):s is MarketSeries=>s!==null),mode:"official",requestedDate:request.asOf,resolvedDate:last.date,warnings,traces};
+ return {series:validSeries,markets:markets.filter((s):s is MarketSeries=>s!==null),mode:"official",requestedDate:request.asOf,resolvedDate:request.asOf,warnings,traces};
 }
 async function fuyao(path:string,key:string){const d=await jsonFetch(FUYAO+path,{"X-api-key":key});if(d.code!==0)throw new DataError(`FUYAO_${String(d.code)}`,`扶摇接口未成功（业务码${String(d.code)}）。请检查密钥、权限或参数。`);if(!d.data||typeof d.data!=="object")throw new DataError("INVALID_RESPONSE","扶摇返回数据结构异常。");return d.data as {timestamp:number;item:Record<string,unknown>[];total?:number};}
 export async function calendar(key:string){const d=await fuyao("/api/a-share/calendar/trading-days",key);if(!Array.isArray(d.item))throw new DataError("INVALID_CALENDAR","交易日历结构异常。");return [...new Set(d.item.map(x=>String(x.date)).filter(x=>/^\d{8}$/.test(x)).map(x=>`${x.slice(0,4)}-${x.slice(4,6)}-${x.slice(6,8)}`))].sort();}
@@ -84,7 +105,7 @@ export async function fuyaoBundle(request:ResearchRequest,config:RuntimeConfig):
   const endpoint=`/api/a-share-index/prices/historical?thscode=${index.code}&interval=1d&start=${start}&end=${end}`;
   try{const rows=await traced(traces,index.code,`扶摇 · ${index.name}历史日线`,"读取足够历史计算均线与区间指标",endpoint,async()=>{const d=await fuyao(endpoint,key);if(!Array.isArray(d.item)||!d.item.length)throw new DataError("EMPTY_HISTORY","指数日线为空。");return d.item;})() as Record<string,unknown>[];
    const bars=rows.map(b=>normalizeFuyaoBar(b,start,end));
-   const normalized=normalizeBars(bars,resolvedDate);const actual=normalized.at(-1)?.date;if(actual!==resolvedDate)warnings.push(`${index.name}最新日线为${actual??"无数据"}，与研究截至日不一致。`);
+   const normalized=normalizeBars(bars,resolvedDate);validateTradingHistory(normalized,dates);const actual=normalized.at(-1)?.date;if(actual!==resolvedDate)warnings.push(`${index.name}最新日线为${actual??"无数据"}，与研究截至日不一致。`);
    return {code:index.code,name:index.name,bars:normalized,source:"扶摇金融数据",sourceUrl:"https://fuyao.aicubes.cn/docs/api-reference/a-share-index/",endpoint:FUYAO+endpoint,retrievedAt,origin:"network",rawFields:fuyaoFields};
   }catch{warnings.push(`${index.name}历史取数失败，关联指标将显示缺失。`);return null;}
  });
@@ -95,8 +116,9 @@ export async function fuyaoBundle(request:ResearchRequest,config:RuntimeConfig):
    if(!Number.isInteger(total)||!total||total>12_000||!Array.isArray(first.item)||!first.item.length)throw new DataError("INVALID_BREADTH","市场快照总量异常。");
    const offsets=Array.from({length:Math.ceil(total/pageSize)-1},(_,i)=>(i+1)*pageSize);
    const pages=await pool(offsets,3,offset=>fuyao(`/api/a-share/prices/snapshot?limit=${pageSize}&offset=${offset}`,key));const all=[first,...pages];
-   if(all.some(p=>p.total!==total||!isClosedSnapshot(p.timestamp,resolvedDate,now.getTime()))||Math.max(...all.map(p=>p.timestamp))-Math.min(...all.map(p=>p.timestamp))>60_000)throw new DataError("MISMATCHED_BREADTH","市场分页总量或数据时点不一致。");
-   const rows=all.flatMap(p=>p.item),codes=new Set(rows.map(x=>x.thscode));if(codes.size!==total||rows.length!==total)throw new DataError("INCOMPLETE_BREADTH","市场快照分页不完整或包含重复证券。");
+   const validationNow=Date.now();
+   if(all.some(p=>p.total!==total||!Array.isArray(p.item)||!isClosedSnapshot(p.timestamp,resolvedDate,validationNow))||Math.max(...all.map(p=>p.timestamp))-Math.min(...all.map(p=>p.timestamp))>60_000)throw new DataError("MISMATCHED_BREADTH","市场分页总量或数据时点不一致。");
+   const rows=all.flatMap(p=>p.item);validateSnapshotCodes(rows,total);
    let up=0,down=0,flat=0,excluded=0;for(const r of rows){const change=number(r.price_change_ratio_pct),price=number(r.last_price),volume=number(r.volume);if(change===null||price===null||price<=0||volume===null||volume<=0){excluded++;continue;}if(change>0)up++;else if(change<0)down++;else flat++;}
    if((up+down+flat)/total<.9)throw new DataError("LOW_VALID_COVERAGE","有效行情覆盖低于90%，不形成全市场宽度判断。");
    breadth={date:resolvedDate,timestamp:first.timestamp,up,down,flat,excluded,total,fetched:rows.length,ratio:up+down?up/(up+down)*100:null,endpoint:FUYAO+`/api/a-share/prices/snapshot?limit=${pageSize}&offset=0…${offsets.at(-1)??0}`,retrievedAt};

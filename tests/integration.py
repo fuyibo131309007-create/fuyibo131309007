@@ -5,7 +5,7 @@ BASE=os.environ.get('MARKET_LENS_TEST_URL','http://127.0.0.1:5173').rstrip('/')
 results=[]
 def call(path, payload=None, raw=None):
     data=raw if raw is not None else json.dumps(payload,ensure_ascii=False).encode() if payload is not None else None
-    req=urllib.request.Request(BASE+path,data=data,headers={'Content-Type':'application/json'})
+    req=urllib.request.Request(BASE+path,data=data,headers={'Content-Type':'application/json','User-Agent':'Mozilla/5.0 MarketLensAcceptance/1.0'})
     try:
         with urllib.request.urlopen(req,timeout=55) as response:return response.status,json.load(response)
     except urllib.error.HTTPError as error:return error.code,json.load(error)
@@ -17,7 +17,7 @@ status,config=call('/api/config');check('configuration only returns connection f
 request={'index':'000001.SH','window':20,'asOf':'2026-08-31','mode':'replay'}
 status,data=call('/api/research',request);report=data.get('report',{})
 check('official replay produces evidence, coverage and snapshot fingerprint',status==200 and len(report.get('evidence',[]))==7 and len(report.get('snapshotFingerprint',''))==64)
-follow={'request':dict(report['request'],asOf=report['asOf']),'snapshotFingerprint':report['snapshotFingerprint'],'question':'哪些风险变量值得继续核验？'}
+follow={'request':report['request'],'snapshotFingerprint':report['snapshotFingerprint'],'question':'哪些风险变量值得继续核验？'}
 status,data=call('/api/followup',follow);check('followup preserves exact report as-of date',status==200 and data.get('asOf')==report['asOf'])
 status,data=call('/api/followup',dict(follow,snapshotFingerprint='0'*64));check('changed snapshot is intentionally rejected',status==409 and data.get('code')=='SNAPSHOT_CHANGED')
 status,data=call('/api/followup',dict(follow,question='现在是否适合购入沪深三百ETF？'));check('trading question redirects to research boundaries',status==200 and data.get('model',{}).get('status')=='refused')

@@ -5,7 +5,7 @@ function calculationInputs(inputs:unknown):unknown{
  return inputs;
 }
 export async function snapshotFingerprint(report:Report){
- const canonical={index:report.request.index,window:report.request.window,mode:report.request.mode,asOf:report.asOf,metrics:report.metrics,evidence:report.evidence.map(e=>({id:e.id,status:e.status,value:e.value,scope:e.scope,asOf:e.asOf,inputs:calculationInputs(e.inputs)}))};
+ const canonical={index:report.request.index,window:report.request.window,mode:report.request.mode,requestedAsOf:report.request.asOf,asOf:report.asOf,coverage:report.coverage,limitations:report.limitations,metrics:report.metrics,evidence:report.evidence.map(e=>({id:e.id,status:e.status,value:e.value,scope:e.scope,asOf:e.asOf,inputs:calculationInputs(e.inputs)}))};
  const bytes=await crypto.subtle.digest("SHA-256",new TextEncoder().encode(JSON.stringify(canonical)));
  return [...new Uint8Array(bytes)].map(b=>b.toString(16).padStart(2,"0")).join("");
 }
